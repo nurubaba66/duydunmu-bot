@@ -2774,6 +2774,34 @@
    "category": "ASAYİŞ",
    "review": true,
    "video": true
+  },
+  "394be7c95e3394be": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "aee5b9cfdd2829b2": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "1a3d4f4e43469fc8": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "b34bd1d18838a297": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
