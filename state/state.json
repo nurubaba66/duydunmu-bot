@@ -1,7 +1,8 @@
 {
  "posted": [
   "ef84b5db171f1078",
-  "920c51e54eaf3245"
+  "920c51e54eaf3245",
+  "6681357f8a0de27c"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -3237,11 +3238,40 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "a8e1d41ca756dd15": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "d5b40bd88319f123": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "bac28296fb8793d2": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "81e5203edd0eaee2": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
   "2026-11-14-18",
-  "2026-11-14-reel-20"
+  "2026-11-14-reel-20",
+  "2026-11-14-21"
  ],
  "breaking": {},
  "log": [
@@ -3285,6 +3315,13 @@
    "title": "Emekli promosyon kampanyası 2026",
    "media": "18174939457459130",
    "cat": "EKONOMİ"
+  },
+  {
+   "t": "2026-11-14T21:03+03:00",
+   "fmt": "card",
+   "title": "Tek bir limandan tam 4 milyon tane çıkınca bedava dağıtmaya başladılar",
+   "media": "17885989176529428",
+   "cat": "İLGİNÇ"
   }
  ],
  "quakes": [],
