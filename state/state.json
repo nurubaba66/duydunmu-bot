@@ -3812,6 +3812,13 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "f21395b9f69c5c32": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
