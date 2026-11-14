@@ -3455,6 +3455,20 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "45ddac36b3d86fd1": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "4bf982a56f1f141d": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
