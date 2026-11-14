@@ -34,16 +34,40 @@ def ig_user_id() -> str:
     raise RuntimeError("Instagram hesap ID'si bulunamadı. IG_USER_ID secret'ını ekleyin.")
 
 
-def upload_public(path: Path) -> str:  # noqa: D401
-    """Instagram görseli herkese açık bir adresten çeker; geçici olarak (72 saat) barındırır."""
-    with open(path, "rb") as f:
-        r = requests.post("https://litterbox.catbox.moe/resources/internals/api.php",
-                          data={"reqtype": "fileupload", "time": "72h"},
-                          files={"fileToUpload": (path.name, f, "video/mp4" if path.suffix == ".mp4" else "image/jpeg")}, timeout=60)
-    url = r.text.strip()
-    if not url.startswith("https://"):
-        raise RuntimeError(f"Görsel yüklenemedi: {url[:200]}")
-    return url
+def upload_public(path: Path) -> str:
+    """Instagram medyayı herkese açık bir adresten çeker; dosyayı geçici olarak barındırır (birkaç servis denenir)."""
+    mime = "video/mp4" if path.suffix == ".mp4" else "image/jpeg"
+    errors = []
+    # 1) tmpfiles.org (60 dk)
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://tmpfiles.org/api/v1/upload", files={"file": (path.name, f, mime)}, timeout=120)
+        url = r.json()["data"]["url"].replace("tmpfiles.org/", "tmpfiles.org/dl/", 1).replace("http://", "https://")
+        return url
+    except Exception as e:
+        errors.append(f"tmpfiles: {e}")
+    # 2) litterbox.catbox.moe (72 saat)
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://litterbox.catbox.moe/resources/internals/api.php",
+                              data={"reqtype": "fileupload", "time": "72h"},
+                              files={"fileToUpload": (path.name, f, mime)}, timeout=120)
+        if r.text.strip().startswith("https://"):
+            return r.text.strip()
+        errors.append(f"litterbox: {r.status_code}")
+    except Exception as e:
+        errors.append(f"litterbox: {e}")
+    # 3) 0x0.st
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://0x0.st", files={"file": (path.name, f, mime)},
+                              headers={"User-Agent": "DuydunMuBot/1.0"}, timeout=120)
+        if r.text.strip().startswith("http"):
+            return r.text.strip()
+        errors.append(f"0x0: {r.status_code}")
+    except Exception as e:
+        errors.append(f"0x0: {e}")
+    raise RuntimeError("Medya yüklenemedi: " + " | ".join(errors))
 
 
 def _wait_ready(container_id: str, tries: int = 30):
