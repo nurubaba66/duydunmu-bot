@@ -78,8 +78,8 @@ def write_post(item: dict, fmt: str) -> dict:
     """fmt: 'card' | 'breaking' | 'carousel'. Kart metinleri + Instagram açıklaması üretir."""
     spec = {
         "card": '{"headline": "en fazla 9 kelime", "summary": "en fazla 28 kelime, 1-2 cümle", "question": "en fazla 6 kelime soru", "image_query": "habere uygun, insan yüzü içermeyen genel fotoğraf için 2-3 kelimelik İngilizce arama", "caption": "Instagram açıklaması: 2-4 kısa cümle, sonunda soru"}',
-        "breaking": '{"headline": "tek cümle, en fazla 12 kelime, sadece kesin bilgi", "summary": "en fazla 18 kelime", "caption": "Instagram açıklaması: 2-3 kısa cümle, gelişmeler takip edilecek notu, sonunda soru"}',
-        "carousel": '{"headline": "kapak için merak uyandıran soru veya cümle, en fazla 8 kelime", "subline": "en fazla 6 kelime", "points": ["3 madde, her biri en fazla 18 kelime"], "question": "kapanış sorusu, en fazla 12 kelime", "caption": "Instagram açıklaması: 2-4 kısa cümle, sonunda soru"}',
+        "breaking": '{"headline": "tek cümle, en fazla 12 kelime, sadece kesin bilgi", "image_query": "", "summary": "en fazla 18 kelime", "caption": "Instagram açıklaması: 2-3 kısa cümle, gelişmeler takip edilecek notu, sonunda soru"}',
+        "carousel": '{"headline": "kapak için merak uyandıran soru veya cümle, en fazla 8 kelime", "subline": "en fazla 6 kelime", "image_query": "kapak fotoğrafı için insan yüzü içermeyen, habere uygun 2-3 kelimelik İngilizce arama", "points": ["3 madde, her biri en fazla 18 kelime"], "question": "kapanış sorusu, en fazla 12 kelime", "caption": "Instagram açıklaması: 2-4 kısa cümle, sonunda soru"}',
     }[fmt]
     msg = _client().messages.create(
         model=config.CLAUDE_MODEL, max_tokens=4000, system=STYLE,

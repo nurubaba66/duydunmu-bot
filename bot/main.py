@@ -76,7 +76,9 @@ def post_item(item: dict, fmt: str, state: dict, now: datetime):
     if fmt == "breaking":
         pages = [render.breaking_html(d, now.strftime("%d.%m.%Y · %H:%M"))]
     elif fmt == "carousel":
-        pages = render.carousel_html(d)
+        photo = images.find_photo(d.get("image_query", ""))
+        credit = photo["credit"] if photo else ""
+        pages = render.carousel_html(d, photo["bytes"] if photo else None)
     else:
         photo = images.find_photo(d.get("image_query", ""))
         credit = photo["credit"] if photo else ""
