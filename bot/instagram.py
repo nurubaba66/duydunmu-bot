@@ -105,14 +105,21 @@ def publish(paths: list[Path], caption: str) -> str:
 
 
 def publish_reel(path: Path, caption: str) -> str:
+    """Videoyu üçüncü taraf sunucu kullanmadan, doğrudan Instagram'a yükler (resumable upload)."""
     if config.DRY_RUN:
         print("[DENEME] Reels paylaşılmadı:", path.name)
         return "dry-run"
     uid, tok = ig_user_id(), config.IG_ACCESS_TOKEN
-    url = upload_public(path)
-    print("Geçici adres:", url)
     c = _check(requests.post(_api(f"{uid}/media"), data={
-        "media_type": "REELS", "video_url": url, "caption": caption, "share_to_feed": "true", "access_token": tok}, timeout=120))
+        "media_type": "REELS", "upload_type": "resumable", "caption": caption,
+        "share_to_feed": "true", "access_token": tok}, timeout=60))
+    upload_uri = c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{config.GRAPH_VERSION}/{c['id']}"
+    data = path.read_bytes()
+    r = requests.post(upload_uri, data=data, timeout=600, headers={
+        "Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(len(data))})
+    print("Video yüklendi:", r.status_code, r.text[:200])
+    if not r.ok:
+        raise RuntimeError(f"Video yüklenemedi: {r.text[:300]}")
     _wait_ready(c["id"], tries=90)
     res = _check(requests.post(_api(f"{uid}/media_publish"), data={"creation_id": c["id"], "access_token": tok}, timeout=60))
     print("Reels paylaşıldı:", res.get("id"))
