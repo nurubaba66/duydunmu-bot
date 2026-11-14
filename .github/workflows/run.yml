@@ -8,6 +8,9 @@ on:
       dry_run:
         description: "Sadece deneme (Instagram'a gönderme)"
         default: "false"
+      manual:
+        description: "Elle paylaşım klasörü (ör. manual/2026-11-14-kizkulesi)"
+        default: ""
 
 permissions:
   contents: write
@@ -33,14 +36,20 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
-        run: python -m bot.main
+          MANUAL: ${{ github.event.inputs.manual }}
+        run: |
+          if [ -n "$MANUAL" ]; then python -m bot.manual "$MANUAL"; else python -m bot.main; fi
       - name: Durumu kaydet
         if: always()
         run: |
           git config user.name "duydunmu-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add state/state.json || true
-          git diff --cached --quiet || (git commit -m "durum güncellendi" && git push)
+          git add state/state.json manual/*/PAYLASILDI 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "durum güncellendi"
+            git pull --rebase -q -X ours || true
+            git push
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:

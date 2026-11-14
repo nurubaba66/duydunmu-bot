@@ -34,20 +34,20 @@ def ig_user_id() -> str:
     raise RuntimeError("Instagram hesap ID'si bulunamadı. IG_USER_ID secret'ını ekleyin.")
 
 
-def upload_public(path: Path) -> str:
+def upload_public(path: Path) -> str:  # noqa: D401
     """Instagram görseli herkese açık bir adresten çeker; geçici olarak (72 saat) barındırır."""
     with open(path, "rb") as f:
         r = requests.post("https://litterbox.catbox.moe/resources/internals/api.php",
                           data={"reqtype": "fileupload", "time": "72h"},
-                          files={"fileToUpload": (path.name, f, "image/jpeg")}, timeout=60)
+                          files={"fileToUpload": (path.name, f, "video/mp4" if path.suffix == ".mp4" else "image/jpeg")}, timeout=60)
     url = r.text.strip()
     if not url.startswith("https://"):
         raise RuntimeError(f"Görsel yüklenemedi: {url[:200]}")
     return url
 
 
-def _wait_ready(container_id: str):
-    for _ in range(30):
+def _wait_ready(container_id: str, tries: int = 30):
+    for _ in range(tries):
         st = _check(requests.get(_api(container_id), params={"fields": "status_code", "access_token": config.IG_ACCESS_TOKEN}, timeout=30))
         if st.get("status_code") in ("FINISHED", None):
             return
@@ -74,4 +74,18 @@ def publish(paths: list[Path], caption: str) -> str:
     _wait_ready(c["id"])
     res = _check(requests.post(_api(f"{uid}/media_publish"), data={"creation_id": c["id"], "access_token": tok}, timeout=60))
     print("Paylaşıldı:", res.get("id"))
+    return res.get("id", "")
+
+
+def publish_reel(path: Path, caption: str) -> str:
+    if config.DRY_RUN:
+        print("[DENEME] Reels paylaşılmadı:", path.name)
+        return "dry-run"
+    uid, tok = ig_user_id(), config.IG_ACCESS_TOKEN
+    url = upload_public(path)
+    c = _check(requests.post(_api(f"{uid}/media"), data={
+        "media_type": "REELS", "video_url": url, "caption": caption, "share_to_feed": "true", "access_token": tok}, timeout=120))
+    _wait_ready(c["id"], tries=90)
+    res = _check(requests.post(_api(f"{uid}/media_publish"), data={"creation_id": c["id"], "access_token": tok}, timeout=60))
+    print("Reels paylaşıldı:", res.get("id"))
     return res.get("id", "")
