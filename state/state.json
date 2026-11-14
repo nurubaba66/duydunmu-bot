@@ -3672,6 +3672,27 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "4642df53e70e2144": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "039fa0768c2fe213": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "f8ef1eae08e30756": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
