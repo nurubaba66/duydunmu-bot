@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import config, images, instagram, mgm, notify, quake, render, sources, writer
+from . import config, images, instagram, mgm, notify, quake, render, sources, video, writer
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state" / "state.json"
@@ -202,6 +202,19 @@ def cycle(now: datetime | None = None):
         last_manual = max((l["t"] for l in state["log"] if l.get("manual")), default="")
         if last_manual and last_manual >= (now - timedelta(minutes=60)).isoformat(timespec="minutes"):
             print("Az önce elle paylaşım yapıldı, planlı paylaşım bekliyor.")
+            return
+
+        rslot = f"{today}-reel-{now.hour}"
+        if now.hour in config.REEL_SLOTS and rslot not in state["slots_done"]:
+            state["slots_done"].append(rslot)
+            last_cat = next((l.get("cat") for l in reversed(state["log"]) if l.get("cat")), None)
+            pool = [i for i in ranked if not i.get("review")]
+            pick = next((i for i in pool if i["category"] != last_cat), pool[0] if pool else None)
+            if pick:
+                try:
+                    post_reel(pick, state, now)
+                except Exception as e:  # Reels hatası döngüyü durdurmasın
+                    print("Reels hatası:", e)
             return
 
         slot = f"{today}-{now.hour}"

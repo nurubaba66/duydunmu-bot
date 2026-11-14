@@ -160,3 +160,79 @@ def build(src: str, dst: str, title: str, credit: str = "Görüntü: Sosyal medy
 
 if __name__ == "__main__":
     build(*sys.argv[1:])
+
+
+# ---------------------------------------------------------------- otomatik haber Reels'i
+def news_reel_html(d: dict, photo_b64: str | None) -> str:
+    """Tek sayfalık animasyon: fotoğraf (yavaş zoom) + başlık + 3 madde + soru. Toplam ~12 sn."""
+    pts = (d.get("points") or [])[:3]
+    bg = (f'<img src="data:image/jpeg;base64,{photo_b64}" class=zoom style="position:absolute;inset:0;width:{W}px;height:{H}px;object-fit:cover">'
+          if photo_b64 else f'<div style="position:absolute;inset:0;background:{Y}"></div>')
+    items = "".join(
+        f'<div class=pt style="animation-delay:{4.2 + i * 1.6:.1f}s;display:flex;gap:24px;align-items:flex-start;background:#fff;'
+        f'border-radius:28px;padding:26px 30px;box-shadow:0 10px 30px rgba(0,0,0,.25)">'
+        f'<div style="flex:none;width:64px;height:64px;border-radius:32px;background:{Y};font-weight:800;font-size:36px;'
+        f'display:flex;align-items:center;justify-content:center">{i + 1}</div>'
+        f'<div style="font-size:40px;font-weight:500;line-height:1.3;color:{K}">{p}</div></div>' for i, p in enumerate(pts))
+    css = """
+@keyframes zoom{from{transform:scale(1.0)}to{transform:scale(1.18)}}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.08);opacity:1}100%{transform:scale(1)}}
+@keyframes up{0%{transform:translateY(50px);opacity:0}100%{transform:none;opacity:1}}
+@keyframes out{to{opacity:0;transform:translateY(-30px)}}
+@keyframes dim{to{background:rgba(0,0,0,.55)}}
+.zoom{animation:zoom 12s linear both}
+.bub{animation:pop .5s cubic-bezier(.2,.9,.3,1.2) both}
+.cat{animation:up .4s .25s ease-out both}
+.ttl{animation:up .5s .45s ease-out both, out .4s 3.7s ease-in forwards}
+.shade{animation:dim .5s 3.7s forwards}
+.pt{animation:up .45s ease-out both}
+.q{animation:pop .5s 9.2s cubic-bezier(.2,.9,.3,1.2) both}"""
+    body = f"""<div style="width:{W}px;height:{H}px;position:relative;overflow:hidden">{bg}
+ <div class=shade style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,0) 30%,rgba(0,0,0,.55))"></div>
+ <div style="position:absolute;top:150px;left:60px;right:60px;display:flex;flex-direction:column;gap:22px;align-items:flex-start">
+  <div class=bub style="background:{K};color:{Y};font-weight:800;font-size:50px;padding:12px 32px;border-radius:44px 44px 44px 6px;transform-origin:left bottom">Duydun mu?</div>
+  <div class=cat style="background:{Y};color:{K};font-weight:800;font-size:30px;letter-spacing:3px;padding:8px 18px;border-radius:10px">{d.get('category', '')}</div>
+ </div>
+ <div class=ttl style="position:absolute;left:60px;right:60px;bottom:520px;background:{Y};color:{K};font-weight:800;font-size:76px;line-height:1.05;letter-spacing:-2px;padding:30px 36px;border-radius:28px;box-shadow:0 10px 40px rgba(0,0,0,.3)">{d.get('headline', '')}</div>
+ <div style="position:absolute;left:60px;right:60px;top:420px;display:flex;flex-direction:column;gap:26px">{items}</div>
+ <div class=q style="position:absolute;left:60px;right:60px;bottom:430px;background:{K};color:{Y};font-weight:800;font-size:56px;line-height:1.1;padding:28px 34px;border-radius:28px">{d.get('question', 'Sen ne düşünüyorsun?')}</div>
+ <div style="position:absolute;bottom:380px;right:40px;color:#fff;font-weight:500;font-size:24px;text-shadow:0 2px 8px #000">Kaynak: {d.get('source', '')}</div>
+</div>"""
+    return _html(body, css)
+
+
+def news_reel(d: dict, photo: bytes | None, dst: str, seconds: float = 12.0, outro_sec: float = 3.5) -> str:
+    import base64
+    tmp = Path(tempfile.mkdtemp())
+    try:
+        b64 = base64.b64encode(photo).decode() if photo else None
+        with sync_playwright() as p:
+            br = p.chromium.launch()
+            pg = br.new_page(viewport={"width": W, "height": H})
+            _render_frames(pg, news_reel_html(d, b64), seconds, tmp / "main", transparent=False)
+            _render_frames(pg, outro_html(), outro_sec, tmp / "out", transparent=False)
+            br.close()
+        for name, sec in (("main", seconds), ("out", outro_sec)):
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", str(FPS), "-i", str(tmp / name / "f%04d.png"),
+                            "-f", "lavfi", "-t", str(sec), "-i", "anullsrc=r=44100:cl=stereo", "-c:v", "libx264",
+                            "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-shortest",
+                            str(tmp / f"{name}.mp4")], check=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp / "main.mp4"), "-i", str(tmp / "out.mp4"),
+                        "-filter_complex", "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]", "-map", "[v]", "-map", "[a]",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac",
+                        str(tmp / "joined.mp4")], check=True)
+        n = len((d.get("points") or [])[:3])
+        ev = [(0.0, sfx.pop()), (0.25, sfx.click()), (0.45, sfx.whoosh(0.4)), (3.7, sfx.whoosh(0.4, up=False))]
+        ev += [(4.2 + i * 1.6, sfx.pop(600 + i * 150, 1100 + i * 150, 0.1)) for i in range(n)]
+        ev += [(9.2, sfx.ding()), (seconds - 0.25, sfx.whoosh(0.5)), (seconds + 0.05, sfx.pop(380, 760, 0.16))]
+        ev += [(seconds + 0.55 + i * 0.18, sfx.pop(600 + i * 120, 1100 + i * 140, 0.1)) for i in range(4)]
+        ev += [(seconds + 1.5, sfx.ding()), (seconds + 1.7, sfx.whoosh(0.35)), (seconds + 2.55, sfx.click()),
+               (seconds + 2.62, sfx.chime())]
+        sfx.track(ev, seconds + outro_sec, str(tmp / "sfx.wav"))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp / "joined.mp4"), "-i", str(tmp / "sfx.wav"),
+                        "-filter_complex", "[0:a][1:a]amix=inputs=2:duration=first:normalize=0[a]", "-map", "0:v",
+                        "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", dst],
+                       check=True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return dst
