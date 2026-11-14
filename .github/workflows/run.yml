@@ -38,7 +38,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           MANUAL: ${{ github.event.inputs.manual }}
         run: |
-          if [ -n "$MANUAL" ]; then python -m bot.manual "$MANUAL"; else python -m bot.main; fi
+          if [ "$MANUAL" = "probe" ]; then python -m bot.probe; elif [ -n "$MANUAL" ]; then python -m bot.manual "$MANUAL"; else python -m bot.main; fi
       - name: Durumu kaydet
         if: always()
         run: |
