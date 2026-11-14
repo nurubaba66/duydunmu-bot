@@ -40,10 +40,10 @@ def score_items(items: list[dict]) -> list[dict]:
         return []
     listing = "\n".join(
         f'{i}. [{it["source"]}, {it["age_min"]} dk önce] {it["title"]} — {it["summary"][:240]}'
-        for i, it in enumerate(items[:60])
+        for i, it in enumerate(items[:40])
     )
     msg = _client().messages.create(
-        model=config.CLAUDE_MODEL, max_tokens=2500, system=STYLE,
+        model=config.CLAUDE_MODEL, max_tokens=8000, system=STYLE,
         messages=[{"role": "user", "content": (
             "Aşağıdaki haberleri Instagram'da en çok etkileşim (yorum, kaydetme, paylaşım) alacak şekilde puanla.\n"
             "Kriterler: Türkiye'deki geniş kitleyi doğrudan ilgilendirmesi (maaş, vergi, fiyat, ulaşım, eğitim, sağlık, hava, güvenlik), "
@@ -51,7 +51,10 @@ def score_items(items: list[dict]) -> list[dict]:
             "Ayrıca gerçekten acil ve önemli bir gelişmeyse breaking=true yap (deprem, büyük karar, resmi açıklama gibi).\n"
             'Sadece JSON dön: [{"i":0,"score":7,"breaking":false,"category":"EKONOMİ"}, ...]\n\n' + listing)}],
     )
-    scores = _json(_text(msg), "[") or []
+    raw = _text(msg)
+    scores = _json(raw, "[") or []
+    if not scores:
+        print("[puanlama okunamadı]", msg.stop_reason, raw[:500])
     for s in scores:
         idx = s.get("i")
         if isinstance(idx, int) and 0 <= idx < len(items):
@@ -69,7 +72,7 @@ def write_post(item: dict, fmt: str) -> dict:
         "carousel": '{"headline": "kapak için merak uyandıran soru veya cümle, en fazla 8 kelime", "subline": "en fazla 6 kelime", "points": ["3 madde, her biri en fazla 18 kelime"], "question": "kapanış sorusu, en fazla 12 kelime", "caption": "Instagram açıklaması: 2-4 kısa cümle, sonunda soru"}',
     }[fmt]
     msg = _client().messages.create(
-        model=config.CLAUDE_MODEL, max_tokens=1200, system=STYLE,
+        model=config.CLAUDE_MODEL, max_tokens=4000, system=STYLE,
         messages=[{"role": "user", "content": (
             f"Kaynak: {item['source']}\nBaşlık: {item['title']}\nMetin: {item['summary']}\n\n"
             f"Bu haber için Instagram içeriği yaz. Sadece şu JSON'u dön:\n{spec}")}],
