@@ -3076,6 +3076,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "9b6857801c5e8784": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "fe97d20010b1e090": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
