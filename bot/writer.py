@@ -13,7 +13,8 @@ Kurallar:
 - Kısa, net, herkesin anlayacağı Türkçe. Clickbait yok, yalan vaat yok, hakaret yok, taraf tutma yok.
 - Suç haberlerinde şüphelileri suçlu gibi yazma; "iddia", "gözaltı", "soruşturma" ifadelerini koru.
 - Her paylaşım yorum çekecek tarafsız bir soruyla biter ("Sizce?", "Sen ne düşünüyorsun?" gibi).
-- Ölüm, şiddet, intihar, çocuk istismarı haberlerini seçme.
+- İntihar, çocuk istismarı ve cinsel suç haberlerini seçme. Kaza/ölüm haberlerinde kanlı ayrıntı verme.
+- Asayiş ve operasyon haberlerinde yalnızca resmi açıklamaya dayan; gözaltındaki kişilerin adını yazma.
 """
 
 
@@ -49,10 +50,14 @@ def score_items(items: list[dict], recent: list[str] | None = None) -> list[dict
             "Kriterler: Türkiye'deki geniş kitleyi doğrudan ilgilendirmesi (maaş, vergi, fiyat, ulaşım, eğitim, sağlık, hava, güvenlik), "
             "tartışma yaratma potansiyeli, yenilik. Hassas/şiddet haberleri ve tek kişilik magazin 0 alsın.\n"
             "Ayrıca gerçekten acil ve önemli bir gelişmeyse breaking=true yap (deprem, büyük karar, resmi açıklama gibi).\n"
+            "category şunlardan biri olsun: " + ", ".join(config.CATEGORIES) + ".\n"
+            "review=true yap eğer: haber belirli bir kişiyi suçluyor/iddia içeriyorsa, parti siyaseti ise, tek ve resmi olmayan "
+            "kaynağa dayanan iddialı bir bilgiyse ya da hukuki risk taşıyorsa. Diğerlerinde review=false.\n"
+            "video=true yap eğer olayın görüntüsü (vatandaş videosu, güvenlik kamerası vb.) muhtemelen sosyal medyada dolaşıyorsa.\n"
             "ÇOK ÖNEMLİ: Aşağıda son 48 saatte sayfada paylaşılan başlıklar var. Aynı olayı/konuyu anlatan habere 0 ver "
             "(sadece gerçekten yeni ve önemli bir gelişme varsa 5'e kadar ver).\nPaylaşılanlar:\n"
             + ("\n".join("- " + t for t in (recent or [])) or "- (yok)") + "\n\n"
-            'Sadece JSON dön: [{"i":0,"score":7,"breaking":false,"category":"EKONOMİ"}, ...]\n\n' + listing)}],
+            'Sadece JSON dön: [{"i":0,"score":7,"breaking":false,"category":"EKONOMİ","review":false,"video":false}, ...]\n\n' + listing)}],
     )
     raw = _text(msg)
     scores = _json(raw, "[") or []
@@ -64,6 +69,8 @@ def score_items(items: list[dict], recent: list[str] | None = None) -> list[dict
             items[idx]["score"] = s.get("score", 0)
             items[idx]["breaking"] = bool(s.get("breaking"))
             items[idx]["category"] = (s.get("category") or "GÜNDEM").upper()[:14]
+            items[idx]["review"] = bool(s.get("review"))
+            items[idx]["video"] = bool(s.get("video"))
     return sorted([i for i in items if i.get("score")], key=lambda x: -x["score"])
 
 
@@ -84,3 +91,19 @@ def write_post(item: dict, fmt: str) -> dict:
     data["category"] = item.get("category", "GÜNDEM")
     data["source"] = item["source"]
     return data
+
+
+def radar(items: list[dict], trends: list[dict]) -> str:
+    """Reels için görüntüsü olabilecek olayları ve Türkiye'nin o an konuştuklarını listeler (markdown)."""
+    listing = "\n".join(f'- [{it["source"]}] {it["title"]} ({it["link"]})' for it in items[:50])
+    tr = "\n".join(f'- {t["title"]} ({t.get("traffic", "")})' for t in trends[:20])
+    msg = _client().messages.create(
+        model=config.CLAUDE_MODEL, max_tokens=3000, system=STYLE,
+        messages=[{"role": "user", "content": (
+            "Bir haber Instagram sayfası için Reels video radarı hazırla. Aşağıdaki haberler ve Türkiye'de şu an en çok "
+            "aranan konular arasından, görüntüsü (vatandaş videosu, güvenlik kamerası, olay anı) muhtemelen sosyal medyada "
+            "dolaşan ve kısa videoya uygun en iyi 6 olayı seç. Her biri için: kısa başlık, neden ilgi çeker (1 cümle), "
+            "videoyu bulmak için arama ifadesi, haber linki. Markdown liste olarak yaz, Türkçe.\n\n"
+            f"HABERLER:\n{listing}\n\nTRENDLER:\n{tr}")}],
+    )
+    return _text(msg)

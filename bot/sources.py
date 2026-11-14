@@ -66,3 +66,13 @@ def fetch_all() -> list[dict]:
             unique.append(it)
     print(f"{len(unique)} güncel haber toplandı")
     return unique
+
+
+def trends() -> list[dict]:
+    """Google Trends Türkiye: o an en çok aranan konular."""
+    try:
+        feed = feedparser.parse(requests.get(config.TRENDS_URL, headers=UA, timeout=20).content)
+        return [{"title": _clean(e.get("title")), "traffic": e.get("ht_approx_traffic", "")} for e in feed.entries[:25]]
+    except Exception as e:
+        print("[trend hatası]", e)
+        return []

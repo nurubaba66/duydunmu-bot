@@ -124,3 +124,97 @@ def to_jpgs(pages: list[str], out_dir: Path, stem: str) -> list[Path]:
             paths.append(path)
         br.close()
     return paths
+
+
+# ---------------------------------------------------------------- haritalı şablonlar
+from . import maps  # noqa: E402
+
+LEVEL_COLOR = {"yellow": "#FFD43B", "orange": "#FF8A1F", "red": "#E5262B"}
+
+
+def quake_html(q: dict, stamp: str) -> str:
+    col = {q["plate"]: "#E5262B"} if q.get("plate") else {}
+    depth = f"{float(q['depth']):.1f} km" if q.get("depth") not in (None, "") else "-"
+    return f"""<!doctype html><html lang=tr><head><meta charset=utf-8>{FONT}{BASE}</head><body>
+<div class=c style="background:{Y}">
+ <div style="background:{K};color:{Y};padding:52px 64px 40px;display:flex;flex-direction:column;gap:24px">
+  <div style="display:flex;justify-content:space-between;align-items:center">
+   <div class=bub style="background:{Y};color:{K};font-size:44px">Duydun mu?</div><div style="font-size:26px;color:#e5e5e5">{config.HANDLE}</div></div>
+  <div style="display:flex;align-items:center;gap:22px"><div style="width:32px;height:32px;border-radius:16px;background:#E5262B"></div>
+   <div style="font-size:104px;font-weight:800;letter-spacing:-2px;line-height:1">DEPREM</div></div>
+ </div>
+ <div style="height:24px;background:repeating-linear-gradient(-45deg,{K} 0 24px,{Y} 24px 48px)"></div>
+ <div style="flex:1;padding:44px 64px 56px;display:flex;flex-direction:column;gap:26px">
+  <div class=h style="font-size:84px">{e(q['location'])}</div>
+  <div style="display:flex;gap:22px">
+   <div style="background:{K};color:{Y};border-radius:24px;padding:18px 30px"><div style="font-size:24px;color:#ddd">Büyüklük</div><div style="font-size:84px;font-weight:800;line-height:1">{q['mag']:.1f}</div></div>
+   <div style="background:#fff;border-radius:24px;padding:18px 30px"><div style="font-size:24px">Derinlik</div><div style="font-size:52px;font-weight:800;line-height:1.2">{e(depth)}</div></div>
+   <div style="background:#fff;border-radius:24px;padding:18px 30px"><div style="font-size:24px">Saat</div><div style="font-size:52px;font-weight:800;line-height:1.2">{q['time_local']}</div></div>
+  </div>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center">{maps.svg(col, 950, 330, base="#F5E7A8")}</div>
+  <div style="display:flex;justify-content:space-between;border-top:4px solid {K};padding-top:22px">
+   <div style="font-size:30px;font-weight:800">{e(stamp)}</div><div style="font-size:28px">Kaynak: AFAD</div></div>
+ </div>
+</div>{maps.FIT_JS}</body></html>"""
+
+
+def mgm_pages(today: dict, tomorrow: dict, d_today: str, d_tomorrow: str) -> list[str]:
+    from . import mgm
+    head = f"<!doctype html><html lang=tr><head><meta charset=utf-8>{FONT}{BASE}</head><body>"
+
+    def cols(s):
+        return {p: LEVEL_COLOR[lvl] for p, lvl in s["plates"].items()}
+
+    worst = mgm.max_level(today) or mgm.max_level(tomorrow) or "yellow"
+    badge = mgm.LEVEL_TR[worst] + " KOD"
+    n_today, n_tom = len(today["plates"]), len(tomorrow["plates"])
+    prio = ["wind", "thunderstorm", "rain", "snow", "avalanche", "cold", "hot", "ice", "fog", "dust", "snowmelt", "agricultural"]
+    ev = sorted(today["events"] | tomorrow["events"], key=lambda x: prio.index(x) if x in prio else 99)
+    ev_txt = " ve ".join(mgm.EVENT_TR.get(x, x) for x in ev[:2]) or "olumsuz hava"
+    rows = []
+    if n_today:
+        rows.append(f'<div style="display:flex;align-items:center;gap:24px"><div style="width:250px;font-weight:800;font-size:34px">BUGÜN<br><span style="font-size:26px;font-weight:500;color:#ccc">{d_today} · {n_today} il</span></div>{maps.svg(cols(today), 640, 280)}</div>')
+    if n_tom:
+        rows.append(f'<div style="display:flex;align-items:center;gap:24px"><div style="width:250px;font-weight:800;font-size:34px">YARIN<br><span style="font-size:26px;font-weight:500;color:#ccc">{d_tomorrow} · {n_tom} il</span></div>{maps.svg(cols(tomorrow), 640, 280)}</div>')
+    total = len(set(today["plates"]) | set(tomorrow["plates"]))
+    n = 2 + (1 if n_today else 0) + (1 if n_tom else 0)
+    cover = head + f"""<div class=c style="background:{K};color:#fff;padding:64px;gap:30px">
+ <div style="display:flex;justify-content:space-between;align-items:center"><div class=bub style="background:{Y};color:{K};font-size:52px">Duydun mu?</div><div style="font-size:28px;font-weight:800">1/{n}</div></div>
+ <div style="display:flex"><div style="background:{LEVEL_COLOR[worst]};color:{K};font-weight:800;font-size:30px;padding:8px 20px;border-radius:10px">{badge}</div></div>
+ <div class=h style="font-size:96px;color:{Y}">{total} ilde {e(ev_txt)} uyarısı</div>
+ <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:26px">{''.join(rows)}</div>
+ <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-size:22px;color:#bbb">Kaynak: Meteoroloji Genel Müdürlüğü · Harita temsilidir</div>
+  <div style="background:{Y};color:{K};font-size:32px;font-weight:800;padding:18px 32px;border-radius:44px">Kaydır →</div></div>
+</div>{maps.FIT_JS}</body></html>"""
+    pages = [cover]
+
+    def day(i, title, s):
+        lines = []
+        for lvl in mgm.LEVELS:
+            ps = [p for p, l in s["plates"].items() if l == lvl]
+            if ps:
+                lines.append(f"{mgm.LEVEL_TR[lvl].title()} kod: " + ", ".join(mgm.names(ps)) + ".")
+        spans = sorted({(a["begin"], a["end"]) for a in s["alerts"]})[:2]
+        for b, en in spans:
+            if mgm.fmt_time(b):
+                lines.append(f"Uyarı süresi: {mgm.fmt_time(b)} – {mgm.fmt_time(en)}")
+        txt = next(iter(s["texts"].values()), "")
+        if txt:
+            lines.append(txt.split(". ")[0].rstrip(".") + ".")
+        li = "".join(f'<div style="display:flex;gap:22px;align-items:flex-start"><div style="flex:none;width:18px;height:18px;margin-top:14px;border-radius:9px;background:{K}"></div><div style="font-size:{34 if len(t) < 160 else 30}px;line-height:1.35">{e(t)}</div></div>' for t in lines)
+        return head + f"""<div class=c style="background:{CREAM};padding:64px;gap:28px">
+ <div style="display:flex;justify-content:space-between;align-items:center"><div class=bub style="font-size:36px">Duydun mu?</div><div style="font-size:28px;font-weight:800">{i}/{n}</div></div>
+ <div class=h style="font-size:72px">{title}</div>
+ <div style="display:flex;justify-content:center">{maps.svg(cols(s), 950, 330, base="#D6D1C2")}</div>
+ <div style="display:flex;flex-direction:column;gap:20px;flex:1;justify-content:center">{li}</div>
+ <div style="font-size:24px;color:#57534E;border-top:3px solid {K};padding-top:20px">Kaynak: Meteoroloji Genel Müdürlüğü (MeteoUyarı)</div>
+</div>{maps.FIT_JS}</body></html>"""
+    i = 2
+    if n_today:
+        pages.append(day(i, f"BUGÜN · {d_today}", today)); i += 1
+    if n_tom:
+        pages.append(day(i, f"YARIN · {d_tomorrow}", tomorrow)); i += 1
+    last = carousel_html({"question": "Senin olduğun yerde hava nasıl? Yorumlara yaz.", "points": [],
+                          "category": "", "headline": "", "subline": "", "source": "MGM"})[2]
+    pages.append(last.replace(">3/3<", f">{n}/{n}<"))
+    return pages
