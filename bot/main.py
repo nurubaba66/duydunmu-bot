@@ -68,9 +68,11 @@ def main():
     state = load_state()
 
     items = [i for i in sources.fetch_all() if i["id"] not in state["posted"]]
+    cutoff = (now - timedelta(hours=48)).isoformat(timespec="minutes")
+    recent = [l["title"] for l in state["log"] if l["t"] >= cutoff]
     new = [i for i in items if i["id"] not in state["scores"]]
     if new:
-        for it in writer.score_items(new):
+        for it in writer.score_items(new, recent):
             state["scores"][it["id"]] = {"score": it["score"], "breaking": it["breaking"], "category": it["category"]}
     for it in items:
         it.update(state["scores"].get(it["id"], {"score": 0, "breaking": False, "category": "GÜNDEM"}))
@@ -93,6 +95,13 @@ def main():
             return
 
     # 2) Planlı paylaşım saatleri
+    # Elle yapılan bir paylaşımdan sonraki 60 dakika otomatik paylaşım yapılmaz (üst üste binmesin)
+    last_manual = max((l["t"] for l in state["log"] if l.get("manual")), default="")
+    if last_manual and last_manual >= (now - timedelta(minutes=60)).isoformat(timespec="minutes"):
+        print("Az önce elle paylaşım yapıldı, bu tur atlanıyor.")
+        save_state(state)
+        return
+
     slot = f"{today}-{now.hour}"
     if now.hour in config.POST_SLOTS and slot not in state["slots_done"]:
         state["slots_done"].append(slot)

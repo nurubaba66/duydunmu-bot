@@ -34,7 +34,7 @@ def _json(text: str, kind: str = "{"):
         return None
 
 
-def score_items(items: list[dict]) -> list[dict]:
+def score_items(items: list[dict], recent: list[str] | None = None) -> list[dict]:
     """Her habere 0-10 puan verir: Türkiye'yi ilgilendirme, yorum çekme, cebe dokunma."""
     if not items:
         return []
@@ -49,6 +49,9 @@ def score_items(items: list[dict]) -> list[dict]:
             "Kriterler: Türkiye'deki geniş kitleyi doğrudan ilgilendirmesi (maaş, vergi, fiyat, ulaşım, eğitim, sağlık, hava, güvenlik), "
             "tartışma yaratma potansiyeli, yenilik. Hassas/şiddet haberleri ve tek kişilik magazin 0 alsın.\n"
             "Ayrıca gerçekten acil ve önemli bir gelişmeyse breaking=true yap (deprem, büyük karar, resmi açıklama gibi).\n"
+            "ÇOK ÖNEMLİ: Aşağıda son 48 saatte sayfada paylaşılan başlıklar var. Aynı olayı/konuyu anlatan habere 0 ver "
+            "(sadece gerçekten yeni ve önemli bir gelişme varsa 5'e kadar ver).\nPaylaşılanlar:\n"
+            + ("\n".join("- " + t for t in (recent or [])) or "- (yok)") + "\n\n"
             'Sadece JSON dön: [{"i":0,"score":7,"breaking":false,"category":"EKONOMİ"}, ...]\n\n' + listing)}],
     )
     raw = _text(msg)
