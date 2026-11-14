@@ -833,6 +833,139 @@
    "category": "TEKNOLOJİ",
    "review": false,
    "video": false
+  },
+  "5ba606408e3b17fd": {
+   "score": 9,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "4b238ebcef1c53c5": {
+   "score": 8,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "27f6949197869bdc": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "2f152ee2c98fc859": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "6c3fa2e0b6c21d8d": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "68ee1c8bcd42c731": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "2f6940c7b1524786": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "f344d292b6ee8556": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "a2235f3167bf340c": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "8f9460a157ee96c1": {
+   "score": 3,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "427b0f0064368101": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "dafc171c35651fc4": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "ec67ac0d1368e2c9": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "9d3f1a816acc6e3f": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "e0f6d8d20a9cb06d": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "5a2e2e8fdf3e531a": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "93f47ffcb9fa0cb6": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "b9f21cd0582a3b3b": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "fd80e80a9fb63da3": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [],
