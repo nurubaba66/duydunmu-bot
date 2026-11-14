@@ -3202,6 +3202,27 @@
    "category": "SPOR",
    "review": false,
    "video": true
+  },
+  "c527c20231b96eea": {
+   "score": 7,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": true
+  },
+  "2777be101ff27f4f": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "07d81cf93d7d31d8": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
