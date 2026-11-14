@@ -38,6 +38,17 @@ def upload_public(path: Path) -> str:
     """Instagram medyayı herkese açık bir adresten çeker; dosyayı geçici olarak barındırır (birkaç servis denenir)."""
     mime = "video/mp4" if path.suffix == ".mp4" else "image/jpeg"
     errors = []
+    # 0) catbox.moe (kalıcı, doğrudan dosya adresi)
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"},
+                              files={"fileToUpload": (path.name, f, mime)}, timeout=120,
+                              headers={"User-Agent": "DuydunMuBot/1.0"})
+        if r.text.strip().startswith("https://"):
+            return r.text.strip()
+        errors.append(f"catbox: {r.status_code} {r.text[:80]}")
+    except Exception as e:
+        errors.append(f"catbox: {e}")
     # 1) tmpfiles.org (60 dk)
     try:
         with open(path, "rb") as f:
