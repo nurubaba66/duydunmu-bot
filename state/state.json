@@ -3469,6 +3469,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "7996bbbcc2e2aaa9": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ac3275639b9f2f09": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "82c2164fb084522c": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
