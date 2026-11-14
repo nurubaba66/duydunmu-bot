@@ -11,7 +11,7 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-from . import config
+from . import config, sfx
 
 W, H, FPS = 1080, 1920, 30
 Y, K = "#FFD43B", "#111111"
@@ -140,7 +140,19 @@ def build(src: str, dst: str, title: str, credit: str = "Görüntü: Sosyal medy
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp / "main.mp4"), "-i", str(tmp / "outro.mp4"),
                         "-filter_complex", "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]", "-map", "[v]", "-map", "[a]",
                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                        "-c:a", "aac", "-movflags", "+faststart", dst], check=True)
+                        "-c:a", "aac", str(tmp / "joined.mp4")], check=True)
+        # Ses efektleri: animasyonlarla aynı anlarda
+        d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                  str(tmp / "main.mp4")], capture_output=True, text=True).stdout.strip())
+        ev = [(0.0, sfx.pop()), (0.18, sfx.whoosh(0.4)), (0.5, sfx.click()),
+              (d - 0.25, sfx.whoosh(0.5)), (d + 0.05, sfx.pop(380, 760, 0.16))]
+        ev += [(d + 0.55 + i * 0.18, sfx.pop(600 + i * 120, 1100 + i * 140, 0.1)) for i in range(4)]
+        ev += [(d + 1.5, sfx.ding()), (d + 1.7, sfx.whoosh(0.35)), (d + 2.55, sfx.click()), (d + 2.62, sfx.chime())]
+        sfx.track(ev, d + outro_sec, str(tmp / "sfx.wav"))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp / "joined.mp4"), "-i", str(tmp / "sfx.wav"),
+                        "-filter_complex", "[0:a][1:a]amix=inputs=2:duration=first:normalize=0[a]",
+                        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+                        "-movflags", "+faststart", dst], check=True)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return dst
