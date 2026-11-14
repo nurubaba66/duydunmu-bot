@@ -11,6 +11,14 @@ from .main import IST, load_state, save_state
 def run(folder: str):
     base = Path(folder)
     post = json.loads((base / "post.json").read_text(encoding="utf-8"))
+    if post.get("render") and not post.get("files"):  # metinden carousel üret (fotoğrafı kendisi bulur)
+        from . import images, render
+        d = post["render"]
+        photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
+        if photo:
+            post["caption"] += "\n\n" + photo["credit"]
+        paths = render.to_jpgs(render.carousel_html(d, photo["bytes"] if photo else None), base, "kart")
+        post["files"] = [Path(x).name for x in paths]
     files = [base / f for f in post["files"]]
     if post["type"] == "reel":
         media = instagram.publish_reel(files[0], post["caption"])

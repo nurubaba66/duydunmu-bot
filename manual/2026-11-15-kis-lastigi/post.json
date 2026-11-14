@@ -1,0 +1,19 @@
+{
+ "type": "carousel",
+ "title": "Kış lastiği dönemi bugün başladı",
+ "caption": "Zorunlu kış lastiği dönemi bugün itibarıyla başladı. Şehirler arası ticari araçlar 15 Nisan'a kadar kış lastiğiyle yola çıkmak zorunda, kurala uymayanlara yaklaşık 6 bin TL ceza var. Özel araç sahipleri ise kendi illerindeki valilik kararlarını takip etmeli. Sen lastiklerini değiştirdin mi? 👇\n\nKaynak: Ulaştırma ve Altyapı Bakanlığı\n\n#kışlastiği #trafik #sondakika #haber #duydunmu",
+ "render": {
+  "category": "TRAFİK",
+  "headline": "Kış lastiği dönemi bugün başladı",
+  "subline": "Takmayana ceza var",
+  "image_query": "snowy road truck winter",
+  "place_query": "",
+  "points": [
+   "Zorunlu kış lastiği uygulaması bugün, 15 Kasım'da başladı ve 15 Nisan 2027'ye kadar sürecek.",
+   "Kural şehir arası yolcu ve yük taşıyan ticari araçları kapsıyor: otobüs, minibüs, kamyon, kamyonet, çekici, tanker.",
+   "Kurala uymayan araç sahiplerine yaklaşık 6 bin TL idari para cezası kesiliyor."
+  ],
+  "question": "Özel araçlarda genel zorunluluk yok, valilik kararları geçerli. Sen kış lastiğini taktırdın mı?",
+  "source": "Ulaştırma ve Altyapı Bakanlığı"
+ }
+}
