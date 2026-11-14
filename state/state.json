@@ -1974,6 +1974,90 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "4c6509a139ba19b8": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "10f7be533c7da458": {
+   "score": 6,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "e2e7cd6348729217": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "22dfcfb4fcd50676": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "68e981ad6f076724": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "28e78eb7447833e7": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "b8b9637509bdce13": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "fa7f1b498f041959": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "2cf4a362e515e253": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "08cce426eee706a9": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "4b30d3e0d9448751": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "6343be1228b76574": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [],
