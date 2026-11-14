@@ -3518,6 +3518,20 @@
    "category": "ASAYİŞ",
    "review": true,
    "video": true
+  },
+  "098e0c823d3e5d89": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "409f468b67ccfeb1": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
