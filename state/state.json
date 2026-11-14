@@ -3413,6 +3413,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "47fb546f4e42810a": {
+   "score": 8,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "e2fcb39c9c5b786a": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "171177f70e9d8e11": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
