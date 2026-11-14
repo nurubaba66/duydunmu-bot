@@ -3735,6 +3735,34 @@
    "category": "DÜNYA",
    "review": false,
    "video": true
+  },
+  "6fc7b70368bcf58b": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "0c9b933be3379787": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "a7be2732cd952dd0": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "60cfe4f09e52d8f4": {
+   "score": 2,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
