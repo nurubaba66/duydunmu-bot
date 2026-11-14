@@ -76,6 +76,12 @@ def main():
         it.update(state["scores"].get(it["id"], {"score": 0, "breaking": False, "category": "GÜNDEM"}))
     ranked = sorted([i for i in items if i["score"] >= config.MIN_SCORE], key=lambda x: (-x["score"], x["age_min"]))
 
+    if config.DRY_RUN:  # deneme: her formattan bir örnek üret, hiçbir şey paylaşma/kaydetme
+        print("En iyi haberler:", [(i["score"], i["title"]) for i in ranked[:8]])
+        for it, fmt in zip(ranked[:3], ["card", "carousel", "breaking"]):
+            post(it, fmt, {"posted": [], "log": []}, now)
+        return
+
     # 1) Son dakika: sadece güvenilir kaynak, taze ve gerçekten önemli
     br_count = state["breaking"].get(today, 0)
     for it in ranked:
