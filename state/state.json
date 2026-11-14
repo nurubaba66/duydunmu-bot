@@ -3434,6 +3434,27 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "fa3a2bcc9c550908": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "7e72425d0c21ad82": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "da83622774b59e69": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
