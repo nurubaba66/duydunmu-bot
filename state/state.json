@@ -2564,6 +2564,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "5aa426206227751f": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "50f77825a735d13c": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "520c07920604a7a4": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
