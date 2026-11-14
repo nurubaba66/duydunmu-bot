@@ -196,7 +196,7 @@ def news_reel_html(d: dict, photo_b64: str | None) -> str:
  <div class=ttl style="position:absolute;left:60px;right:60px;bottom:520px;background:{Y};color:{K};font-weight:800;font-size:76px;line-height:1.05;letter-spacing:-2px;padding:30px 36px;border-radius:28px;box-shadow:0 10px 40px rgba(0,0,0,.3)">{d.get('headline', '')}</div>
  <div style="position:absolute;left:60px;right:60px;top:420px;display:flex;flex-direction:column;gap:26px">{items}</div>
  <div class=q style="position:absolute;left:60px;right:60px;bottom:430px;background:{K};color:{Y};font-weight:800;font-size:56px;line-height:1.1;padding:28px 34px;border-radius:28px">{d.get('question', 'Sen ne düşünüyorsun?')}</div>
- <div style="position:absolute;bottom:380px;right:40px;color:#fff;font-weight:500;font-size:24px;text-shadow:0 2px 8px #000">Kaynak: {d.get('source', '')}</div>
+ <div style="position:absolute;bottom:380px;right:40px;color:#fff;font-weight:500;font-size:24px;text-shadow:0 2px 8px #000;text-align:right">Kaynak: {d.get('source', '')}<br><span style="font-size:20px">{d.get('credit', '')}</span></div>
 </div>"""
     return _html(body, css)
 

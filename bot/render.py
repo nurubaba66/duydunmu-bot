@@ -34,7 +34,7 @@ def card_html(d: dict, photo: bytes | None = None, credit: str = "") -> str:
  <div style="position:relative;height:760px;overflow:hidden">
   <img src="data:image/jpeg;base64,{b64}" style="width:1080px;height:760px;object-fit:cover;display:block">
   <div class=bub style="position:absolute;top:48px;left:56px;font-size:44px">Duydun mu?</div>
-  <div style="position:absolute;bottom:18px;right:24px;background:rgba(17,17,17,.72);color:#fff;font-size:19px;padding:6px 14px;border-radius:8px">Temsili fotoğraf</div>
+  <div style="position:absolute;bottom:18px;right:24px;background:rgba(17,17,17,.72);color:#fff;font-size:19px;padding:6px 14px;border-radius:8px">{d.get('photo_label') or 'Temsili fotoğraf'}</div>
  </div>
  <div style="flex:1;padding:44px 64px 52px;display:flex;flex-direction:column;gap:20px">
   <div style="font-size:28px;font-weight:800;letter-spacing:3px">{e(d.get('category'))}</div>
@@ -89,7 +89,7 @@ def carousel_html(d: dict, photo: bytes | None = None) -> list[str]:
   <img src="data:image/jpeg;base64,{b64}" style="width:1080px;height:760px;object-fit:cover;display:block">
   <div class=bub style="position:absolute;top:48px;left:56px;font-size:48px">Duydun mu?</div>
   <div style="position:absolute;top:60px;right:56px;background:rgba(17,17,17,.75);color:#fff;font-size:26px;font-weight:800;padding:8px 16px;border-radius:10px">1/3</div>
-  <div style="position:absolute;bottom:18px;right:24px;background:rgba(17,17,17,.72);color:#fff;font-size:19px;padding:6px 14px;border-radius:8px">Temsili fotoğraf</div>
+  <div style="position:absolute;bottom:18px;right:24px;background:rgba(17,17,17,.72);color:#fff;font-size:19px;padding:6px 14px;border-radius:8px">{d.get('photo_label') or 'Temsili fotoğraf'}</div>
  </div>
  <div style="flex:1;padding:44px 64px 52px;display:flex;flex-direction:column;gap:18px">
   <div style="font-size:28px;font-weight:800;letter-spacing:3px">{e(d.get('category'))}</div>

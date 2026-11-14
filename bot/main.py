@@ -76,11 +76,13 @@ def post_item(item: dict, fmt: str, state: dict, now: datetime):
     if fmt == "breaking":
         pages = [render.breaking_html(d, now.strftime("%d.%m.%Y · %H:%M"))]
     elif fmt == "carousel":
-        photo = images.find_photo(d.get("image_query", ""))
+        photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
         credit = photo["credit"] if photo else ""
+        if photo and photo.get("real"):
+            d["photo_label"] = credit
         pages = render.carousel_html(d, photo["bytes"] if photo else None)
     else:
-        photo = images.find_photo(d.get("image_query", ""))
+        photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
         credit = photo["credit"] if photo else ""
         pages = [render.card_html(d, photo["bytes"] if photo else None)]
     reason = ""
@@ -90,6 +92,27 @@ def post_item(item: dict, fmt: str, state: dict, now: datetime):
 
 
 # ------------------------------------------------------------------ özel modüller
+def post_reel(item: dict, state: dict, now: datetime):
+    """Haberden 12 sn'lik animasyonlu, efektli Reels üretir ve paylaşır."""
+    d = writer.write_post(item, "carousel")
+    state["posted"].append(item["id"])
+    if not d.get("headline") or not d.get("points"):
+        print("Reels metni üretilemedi:", item["title"])
+        return
+    d["category"] = d.get("category") or item.get("category", "GÜNDEM")
+    photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
+    credit = photo["credit"] if photo else ""
+    d["credit"] = credit if photo and photo.get("real") else ("Temsili fotoğraf" if photo else "")
+    OUT.mkdir(parents=True, exist_ok=True)
+    path = str(OUT / f"{now:%Y%m%d_%H%M}_reel.mp4")
+    video.news_reel(d, photo["bytes"] if photo else None, path)
+    if config.DRY_RUN:
+        print("Reels hazır (deneme):", path)
+        return
+    media = instagram.publish_reel(path, caption_for(d, credit))
+    _log(state, now, "reel", item["title"], media, cat=item.get("category"))
+
+
 def do_quakes(state, now) -> bool:
     for q in quake.recent(now.astimezone(timezone.utc)):
         if q["id"] in state["quakes"]:
