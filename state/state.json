@@ -3104,6 +3104,27 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "530b6019ed8fa3e7": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "831104abe54291bd": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "5ff4ad00e3eba857": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
