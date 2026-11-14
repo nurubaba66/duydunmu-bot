@@ -60,8 +60,9 @@ def post(item: dict, fmt: str, state: dict, now: datetime):
 
 
 def main():
-    if not config.ANTHROPIC_API_KEY:
-        sys.exit("ANTHROPIC_API_KEY eksik")
+    if not config.ANTHROPIC_API_KEY or not (config.IG_ACCESS_TOKEN or config.DRY_RUN):
+        print("Anahtarlar henüz eklenmedi, bekleniyor.")
+        return
     now = datetime.now(IST)
     today = now.strftime("%Y-%m-%d")
     state = load_state()
