@@ -1,5 +1,7 @@
 {
- "posted": [],
+ "posted": [
+  "ef84b5db171f1078"
+ ],
  "scores": {
   "387b5b97899255b1": {
    "score": 7,
@@ -2156,9 +2158,137 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "4d07eb90a0f8429f": {
+   "score": 8,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "52a053bbd6f6b6a1": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "7542e2beff37251a": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "abb0721c66d360aa": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "22edc89489a423ec": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "772cd061fee361f6": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "65b2338c42ffa020": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "217e23c3fcb874d9": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
+  },
+  "2b790a1e947b482e": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "367b6f920454238b": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "bcfc24c0b2cd9887": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "1c96c729585c0f54": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "39246c25f27d4937": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "64a070d8779db079": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "ba60385ee5ae0dfe": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "7c6481b9a129c03a": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": true
+  },
+  "7ce5c8d3bc29465a": {
+   "score": 1,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "711888394cf38c87": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
- "slots_done": [],
+ "slots_done": [
+  "2026-11-14-18"
+ ],
  "breaking": {},
  "log": [
   {
@@ -2194,6 +2324,13 @@
    "title": "Köye imam ilanı: 2 bin kişi başvurdu",
    "media": "18015997937763302",
    "manual": true
+  },
+  {
+   "t": "2026-11-14T18:03+03:00",
+   "fmt": "carousel",
+   "title": "Emekli promosyon kampanyası 2026",
+   "media": "18174939457459130",
+   "cat": "EKONOMİ"
   }
  ],
  "quakes": [],
