@@ -3195,6 +3195,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "330145f6902cd244": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
