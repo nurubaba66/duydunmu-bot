@@ -2494,6 +2494,27 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "1eccfabaf628cbf7": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "c94620ad18ab47db": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "bbdfcec2b6a94eb9": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
