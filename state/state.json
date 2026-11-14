@@ -17,6 +17,42 @@
    "title": "Bugün ve yarın için sarı kod: sağanak ve fırtına (14-15 Kasım)",
    "media": "18129007144910877",
    "manual": true
+  },
+  {
+   "t": "2026-11-14T16:22+03:00",
+   "fmt": "hava",
+   "title": "MGM uyarı 2026-11-14",
+   "media": "18351002845250175"
   }
- ]
+ ],
+ "quakes": [],
+ "mgm_alerts": [
+  "2026111312-yellow",
+  "2026111311-yellow",
+  "2026111310-yellow",
+  "2026111309-yellow",
+  "2026111308-yellow",
+  "2026111307-yellow",
+  "2026111306-yellow",
+  "2026111305-yellow",
+  "2026111304-yellow",
+  "2026111303-yellow",
+  "2026111302-yellow",
+  "2026111301-yellow",
+  "2026111101-yellow",
+  "2026111401-yellow",
+  "2026111312-yellow",
+  "2026111311-yellow",
+  "2026111310-yellow",
+  "2026111309-yellow",
+  "2026111308-yellow",
+  "2026111307-yellow",
+  "2026111306-yellow",
+  "2026111305-yellow",
+  "2026111304-yellow"
+ ],
+ "mgm_days": [
+  "2026-11-14"
+ ],
+ "radar": []
 }
