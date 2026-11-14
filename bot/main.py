@@ -113,7 +113,11 @@ def do_mgm(state, now) -> bool:
     day = now.strftime("%Y-%m-%d")
     new_severe = [a for a in t["alerts"] + m["alerts"]
                   if a["level"] in ("orange", "red") and f'{a["no"]}-{a["level"]}' not in state["mgm_alerts"]]
-    bulletin_due = now.hour >= config.MGM_BULLETIN_HOUR and day not in state["mgm_days"]
+    # Bugün elle ya da otomatik bir hava uyarısı paylaşıldıysa sabah bülteni tekrar yapılmaz
+    weather_done = any(l["t"].startswith(day) and (l.get("fmt") == "hava" or any(k in l.get("title", "").lower()
+                       for k in ("sarı kod", "turuncu kod", "kırmızı kod", "mgm", "meteoroloji")))
+                       for l in state["log"])
+    bulletin_due = now.hour >= config.MGM_BULLETIN_HOUR and day not in state["mgm_days"] and not weather_done
     if not (new_severe or bulletin_due):
         return False
     for a in t["alerts"] + m["alerts"]:
