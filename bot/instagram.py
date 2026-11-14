@@ -71,13 +71,16 @@ def upload_public(path: Path) -> str:
 
 
 def _wait_ready(container_id: str, tries: int = 30):
+    st = {}
     for _ in range(tries):
-        st = _check(requests.get(_api(container_id), params={"fields": "status_code", "access_token": config.IG_ACCESS_TOKEN}, timeout=30))
-        if st.get("status_code") in ("FINISHED", None):
+        st = _check(requests.get(_api(container_id), params={"fields": "status_code,status", "access_token": config.IG_ACCESS_TOKEN}, timeout=30))
+        code = st.get("status_code")
+        if code in ("FINISHED", "PUBLISHED"):
             return
-        if st.get("status_code") == "ERROR":
-            raise RuntimeError("Instagram görseli işleyemedi")
-        time.sleep(4)
+        if code in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Instagram medyayı işleyemedi: {st}")
+        time.sleep(5)
+    raise RuntimeError(f"Instagram işlemi zamanında bitmedi: {st}")
 
 
 def publish(paths: list[Path], caption: str) -> str:
@@ -107,6 +110,7 @@ def publish_reel(path: Path, caption: str) -> str:
         return "dry-run"
     uid, tok = ig_user_id(), config.IG_ACCESS_TOKEN
     url = upload_public(path)
+    print("Geçici adres:", url)
     c = _check(requests.post(_api(f"{uid}/media"), data={
         "media_type": "REELS", "video_url": url, "caption": caption, "share_to_feed": "true", "access_token": tok}, timeout=120))
     _wait_ready(c["id"], tries=90)
