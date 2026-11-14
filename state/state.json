@@ -2515,6 +2515,55 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "a88c7b0223c5d7ea": {
+   "score": 7,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "7fcbffe843ddfb87": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "0582182e50b3c56c": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "0dd18ce9cf5fd6bd": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "eb68f64095a44823": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "d1a30a83e3f44d34": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "dbe74c30146efb19": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
