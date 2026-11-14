@@ -3490,6 +3490,34 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "9ac8c048e25732dd": {
+   "score": 8,
+   "breaking": true,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "5ce06366aa15dd27": {
+   "score": 7,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "32695e0d49b0f15e": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "13741d87eb910530": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": true
   }
  },
  "slots_done": [
