@@ -1652,6 +1652,83 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "5bd87130162a9cbb": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "9934b71ac3b89c0d": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "fd6048952da4e93d": {
+   "score": 7,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "b060c57f95892953": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "beec2475dd46fe7d": {
+   "score": 5,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "bbe826c09a2d6ba4": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "db14830afdfc6d1a": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "8187b4dbfe9df941": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "a9d624d9dd28bb6e": {
+   "score": 3,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "44871bf3d11b5950": {
+   "score": 2,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "a3964ace63a4e366": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [],
