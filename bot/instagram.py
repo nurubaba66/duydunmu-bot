@@ -38,6 +38,20 @@ def upload_public(path: Path) -> str:
     """Instagram medyayı herkese açık bir adresten çeker; dosyayı geçici olarak barındırır (birkaç servis denenir)."""
     mime = "video/mp4" if path.suffix == ".mp4" else "image/jpeg"
     errors = []
+    # uguu.se (48 saat, doğrudan dosya adresi)
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://uguu.se/upload", files={"files[]": (path.name, f, mime)}, timeout=120,
+                              headers={"User-Agent": "DuydunMuBot/1.0"})
+        u = r.json()["files"][0]["url"]
+        chk = requests.get(u, timeout=60, headers={"User-Agent": "facebookexternalhit/1.1"})
+        print("uguu kontrol:", chk.status_code, chk.headers.get("content-type"), len(chk.content))
+        if chk.ok and chk.headers.get("content-type", "").startswith(mime.split("/")[0]):
+            return u
+        errors.append(f"uguu: {chk.status_code} {chk.headers.get('content-type')}")
+    except Exception as e:
+        errors.append(f"uguu: {e}")
+    print("Barındırma denemeleri:", errors)
     # 0) catbox.moe (kalıcı, doğrudan dosya adresi)
     try:
         with open(path, "rb") as f:
