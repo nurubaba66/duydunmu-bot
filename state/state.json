@@ -3090,6 +3090,20 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "1e1934a62dc90b1e": {
+   "score": 4,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "3c5bc12632345bf9": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
