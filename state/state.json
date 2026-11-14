@@ -3223,6 +3223,20 @@
    "category": "SPOR",
    "review": false,
    "video": true
+  },
+  "2dc04aa19b55b82a": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "c337c7e7cbf40cfb": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
