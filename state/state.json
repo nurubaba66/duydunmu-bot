@@ -2900,6 +2900,48 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "cb0c1ac6fee0c52b": {
+   "score": 8,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "7429393fa330ca0a": {
+   "score": 8,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "303281a5520bfa60": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "eea9e14f193896f6": {
+   "score": 1,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "9fbb6024cf5af945": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "ea39f94877e57a8f": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
