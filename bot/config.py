@@ -5,7 +5,9 @@ import os
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 IG_ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_USER_ID = os.environ.get("IG_USER_ID", "")  # boşsa token'dan bulunur
-GRAPH_HOST = os.environ.get("GRAPH_HOST", "https://graph.facebook.com")
+# Instagram Login token'ları "IG" ile başlar ve graph.instagram.com'da çalışır
+GRAPH_HOST = os.environ.get("GRAPH_HOST") or (
+    "https://graph.instagram.com" if IG_ACCESS_TOKEN.startswith("IG") else "https://graph.facebook.com")
 GRAPH_VERSION = os.environ.get("GRAPH_VERSION", "v23.0")
 
 # Paylaşmadan sadece deneme yap (true ise Instagram'a gönderilmez)
