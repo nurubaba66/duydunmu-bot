@@ -1,6 +1,7 @@
 {
  "posted": [
-  "ef84b5db171f1078"
+  "ef84b5db171f1078",
+  "920c51e54eaf3245"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -2998,10 +2999,39 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "a64292dd727d5082": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "97664f19ca4eb8fa": {
+   "score": 4,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "6046e47da781d88a": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "791f225cd48f0580": {
+   "score": 2,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
-  "2026-11-14-18"
+  "2026-11-14-18",
+  "2026-11-14-reel-20"
  ],
  "breaking": {},
  "log": [
