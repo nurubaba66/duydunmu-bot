@@ -21,9 +21,17 @@ def _client():
     return anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
 
 
-def _json(text: str):
-    m = re.search(r"\{.*\}|\[.*\]", text, re.S)
-    return json.loads(m.group(0)) if m else None
+def _text(msg) -> str:
+    return "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
+
+
+def _json(text: str, kind: str = "{"):
+    pat = r"\[.*\]" if kind == "[" else r"\{.*\}"
+    m = re.search(pat, text, re.S)
+    try:
+        return json.loads(m.group(0)) if m else None
+    except json.JSONDecodeError:
+        return None
 
 
 def score_items(items: list[dict]) -> list[dict]:
@@ -43,7 +51,7 @@ def score_items(items: list[dict]) -> list[dict]:
             "Ayrıca gerçekten acil ve önemli bir gelişmeyse breaking=true yap (deprem, büyük karar, resmi açıklama gibi).\n"
             'Sadece JSON dön: [{"i":0,"score":7,"breaking":false,"category":"EKONOMİ"}, ...]\n\n' + listing)}],
     )
-    scores = _json(msg.content[0].text) or []
+    scores = _json(_text(msg), "[") or []
     for s in scores:
         idx = s.get("i")
         if isinstance(idx, int) and 0 <= idx < len(items):
@@ -66,7 +74,7 @@ def write_post(item: dict, fmt: str) -> dict:
             f"Kaynak: {item['source']}\nBaşlık: {item['title']}\nMetin: {item['summary']}\n\n"
             f"Bu haber için Instagram içeriği yaz. Sadece şu JSON'u dön:\n{spec}")}],
     )
-    data = _json(msg.content[0].text) or {}
+    data = _json(_text(msg)) or {}
     data["category"] = item.get("category", "GÜNDEM")
     data["source"] = item["source"]
     return data
