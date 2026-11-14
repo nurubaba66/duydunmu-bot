@@ -1456,6 +1456,111 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "920c51e54eaf3245": {
+   "score": 9,
+   "breaking": true,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "98b0cdb298d9f913": {
+   "score": 9,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "e86233f10450d04f": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "cf9a6a4ea852e19d": {
+   "score": 7,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
+  },
+  "942800f1a9f2dcd6": {
+   "score": 7,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "d020506213e4ff04": {
+   "score": 6,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "41ce1a0d0f587be1": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "140557643f00f4ce": {
+   "score": 4,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "1e9d4e4b2b78ae51": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "1a21220f5a51b325": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "2b980bec76ecb4a6": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "066ca67a4dc47546": {
+   "score": 2,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "b77af74c45b1d936": {
+   "score": 2,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "7a48d7548d7f9028": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "4abf51c771f80d36": {
+   "score": 1,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [],
