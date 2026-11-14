@@ -3027,6 +3027,34 @@
    "category": "EĞİTİM",
    "review": false,
    "video": false
+  },
+  "219df0e6ad64a53b": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "1789e55577d9ca15": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "73f6a8e3cff9072d": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "dc76e29ba8e8b2a4": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
