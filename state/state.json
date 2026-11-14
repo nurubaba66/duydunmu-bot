@@ -2725,6 +2725,27 @@
    "category": "İLGİNÇ",
    "review": false,
    "video": false
+  },
+  "56fd9f9fa39beb6e": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "9ec6fadc891e9e4e": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "b80b8708aa4b0599": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
