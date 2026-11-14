@@ -3763,6 +3763,27 @@
    "category": "ULAŞIM",
    "review": false,
    "video": false
+  },
+  "91770c599be1991e": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": true
+  },
+  "5a2bc2d2e7c2203a": {
+   "score": 4,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "0b1b954ed8ac4913": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
