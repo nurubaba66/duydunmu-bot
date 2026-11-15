@@ -4400,6 +4400,13 @@
    "category": "HAVA",
    "review": false,
    "video": true
+  },
+  "e66ac7be2944562d": {
+   "score": 6,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
