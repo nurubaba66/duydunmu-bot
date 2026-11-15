@@ -4750,6 +4750,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "ed594a9d8734c245": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
