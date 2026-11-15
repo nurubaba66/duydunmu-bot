@@ -7897,6 +7897,27 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "7a10dc019ef73105": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "a8da2194333d19c5": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "53d98876a8f48ecd": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
