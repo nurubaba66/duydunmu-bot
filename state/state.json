@@ -4393,6 +4393,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "65a5148150134ff3": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
