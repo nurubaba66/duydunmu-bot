@@ -8444,6 +8444,27 @@
    "category": "ULAŞIM",
    "review": false,
    "video": false
+  },
+  "41f936f6b0717a41": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "8cd4ddd50a406a85": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "36ee90ada7ae6fbf": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
