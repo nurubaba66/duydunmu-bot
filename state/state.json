@@ -8002,6 +8002,27 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "960e8f5170cf9365": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "9a7a55e6bf55cea4": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "3bf873a98f1d31a6": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
