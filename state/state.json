@@ -7883,6 +7883,20 @@
    "category": "TEKNOLOJİ",
    "review": true,
    "video": false
+  },
+  "88f9b421edd926e7": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "a68f1bfafd18b21e": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
