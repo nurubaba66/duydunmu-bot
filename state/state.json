@@ -8101,6 +8101,20 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "e3c27826ffede2e9": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "5949e600a57f1f97": {
+   "score": 2,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
