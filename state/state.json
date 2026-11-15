@@ -8241,6 +8241,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "facb69b86e0bff04": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "99618a49f5371975": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
