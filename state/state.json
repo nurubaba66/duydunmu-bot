@@ -4344,6 +4344,13 @@
    "category": "TEKNOLOJİ",
    "review": false,
    "video": false
+  },
+  "2fb2d7b5175bc8b0": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
