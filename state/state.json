@@ -7385,6 +7385,48 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "2250b9d3e34ac601": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "818d5e2ce86a50cd": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "64ebbde050815c3c": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "da4e53db31fec876": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "e7178c95c44c3106": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "62fea528e667c6e9": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
