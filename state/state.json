@@ -8332,6 +8332,27 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "feea4cfacac332ed": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "c8cbd4044f091a26": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "f23356c5ef899f08": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
