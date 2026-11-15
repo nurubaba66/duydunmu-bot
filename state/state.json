@@ -8388,6 +8388,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "1dbe4d9f5b9c24dd": {
+   "score": 5,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "8af875ead37347ab": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
