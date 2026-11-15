@@ -7455,6 +7455,20 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "44f8f979974a1d27": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "7d41deb814dcb5f5": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
