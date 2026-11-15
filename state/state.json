@@ -7553,6 +7553,27 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "eb0993969051b7b4": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "dc9ff385c0e96c3d": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "feb76fa2730f4916": {
+   "score": 1,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
