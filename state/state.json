@@ -6936,6 +6936,55 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "ce1953d789af571e": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "c1a328708d8abfab": {
+   "score": 7,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "266392b6a220a312": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "3adb2bfbc8b51366": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "0ba60c57e38dac00": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "86e301d5a8679fdd": {
+   "score": 3,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "303e41067c103e5c": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
