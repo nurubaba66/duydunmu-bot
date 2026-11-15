@@ -7693,6 +7693,41 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "27e5d90dbd3144c9": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "2b3339bf5c260046": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "17d7123049a8405e": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "0e5f606b0fe77a28": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "2a2ea35f34e713a7": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
