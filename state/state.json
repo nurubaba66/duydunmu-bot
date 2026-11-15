@@ -5227,6 +5227,41 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "72d657cabfdf8101": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": true,
+   "video": true
+  },
+  "fd7f198dbce17ae1": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "4d5d7401b1b97292": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ef7e730880e96150": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": true,
+   "video": true
+  },
+  "e433850e41111834": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
