@@ -4772,6 +4772,34 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "bec84083561c0bc8": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "17519a5ebf30cde4": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "5c7a44f82207a9f4": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "9a8a9f26a44869f5": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
