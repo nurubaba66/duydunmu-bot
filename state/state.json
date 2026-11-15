@@ -8367,6 +8367,27 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "00eee199d5e065a8": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "4494fa772f43606e": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "872861c975749836": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
