@@ -7097,6 +7097,41 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "812821f88ae761bc": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "fba5babb9a9f3238": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "b9361d312a9c2c44": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "e962502b32ece677": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "e887574a4746e6bf": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": true
   }
  },
  "slots_done": [
