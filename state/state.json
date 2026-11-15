@@ -7735,6 +7735,20 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "34bc1bd5c140e54e": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
+  },
+  "2ab6c8e841edb6d6": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
