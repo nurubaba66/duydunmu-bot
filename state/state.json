@@ -4099,6 +4099,160 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "d2a4412b340f1a99": {
+   "score": 7,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "b94dcf89a6ede749": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "316193cd13d4cf4a": {
+   "score": 6,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "7a5d3e6423bbb9d4": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "276d554d3eb078b1": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "416905e4c8d12084": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "740aa6416f160f7b": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "0223623df8564ded": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "976169e5db755ed4": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "b2d748145db51fe8": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "6faee20c0dd64106": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "3ab48c67a9a3dcce": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "16d61a8326cb8a64": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "ac9c769bea14f6f1": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "e8b5e0859f1ee190": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "9a4a21223d615e22": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "bc981f23816112d4": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "9832b5f7a20b5b25": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "8a8030e4c34aaa11": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "68368ffcd28b9785": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "78f898d3cf5df257": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "ce4eb8e2bb3d9d71": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
