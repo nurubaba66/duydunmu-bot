@@ -108,7 +108,9 @@ def outro_html() -> str:
     return _html(body, css)
 
 
-def build(src: str, dst: str, title: str, credit: str = "Görüntü: Sosyal medya", outro_sec: float = 3.5):
+def build(src: str, dst: str, title: str, credit: str = "Görüntü: Sosyal medya", outro_sec: float = 3.5,
+          pad_top: int | None = None):
+    """pad_top verilirse video kırpılmaz; tam genişlikte, üstten pad_top piksel aşağıya yerleştirilir."""
     tmp = Path(tempfile.mkdtemp())
     try:
         with sync_playwright() as p:
@@ -122,7 +124,9 @@ def build(src: str, dst: str, title: str, credit: str = "Görüntü: Sosyal medy
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src,
                         "-framerate", str(FPS), "-i", str(tmp / "ov" / "f%04d.png"), "-loop", "1", "-i", str(last),
                         "-filter_complex",
-                        f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1[b];"
+                        (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1[b];"
+                         if pad_top is None else
+                         f"[0:v]scale={W}:-2,pad={W}:{H}:0:{pad_top}:color=0x111111,fps={FPS},setsar=1[b];") +
                         "[b][1:v]overlay=0:0:eof_action=pass[t];[t][2:v]overlay=0:0:enable='gte(t,1)':shortest=1[v]",
                         "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                         "-pix_fmt", "yuv420p", "-c:a", "aac", "-ar", "44100", "-ac", "2", str(tmp / "main.mp4")], check=True)
