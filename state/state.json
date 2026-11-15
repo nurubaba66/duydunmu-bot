@@ -4940,6 +4940,34 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "149571fe311d8545": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "1d7a6c51804a9951": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
+  },
+  "52cda6603bf6b3ed": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "231da39499decdeb": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
