@@ -7307,6 +7307,41 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "208c875119f88a38": {
+   "score": 7,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "fa42a70bb72ca544": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "a4c0a741c8b4bf49": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "11415b404918289b": {
+   "score": 2,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "92c40e0daf753638": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
