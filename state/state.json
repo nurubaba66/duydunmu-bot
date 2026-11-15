@@ -4800,6 +4800,41 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "a615b9b942716bd5": {
+   "score": 8,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "3ca6d2356826b159": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "faea31433b1848b7": {
+   "score": 3,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "be5dd03a2ae4c072": {
+   "score": 2,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "86381d21ac4e59e2": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
