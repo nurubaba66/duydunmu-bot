@@ -4442,6 +4442,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "962099fd081387bc": {
+   "score": 8,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "2d7cad968f5fef8e": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
