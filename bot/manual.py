@@ -14,10 +14,15 @@ def run(folder: str):
     if post.get("render") and not post.get("files"):  # metinden carousel üret (fotoğrafı kendisi bulur)
         from . import images, render
         d = post["render"]
-        photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
-        if photo:
+        if d.get("photo_file"):  # sahibinin verdiği fotoğraf
+            photo = {"bytes": (base / d["photo_file"]).read_bytes(), "credit": ""}
+        else:
+            photo = images.best_photo(d.get("place_query", ""), d.get("image_query", ""))
+        if photo and photo["credit"]:
             post["caption"] += "\n\n" + photo["credit"]
-        paths = render.to_jpgs(render.carousel_html(d, photo["bytes"] if photo else None), base, "kart")
+        pb = photo["bytes"] if photo else None
+        pages = [render.card_html(d, pb)] if post["type"] == "image" else render.carousel_html(d, pb)
+        paths = render.to_jpgs(pages, base, "kart")
         post["files"] = [Path(x).name for x in paths]
     files = [base / f for f in post["files"]]
     if post["type"] == "reel":
