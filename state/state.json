@@ -8199,6 +8199,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "715f2b5db061104c": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
