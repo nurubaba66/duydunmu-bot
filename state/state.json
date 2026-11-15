@@ -8234,6 +8234,13 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "87a8004be9a48f33": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
