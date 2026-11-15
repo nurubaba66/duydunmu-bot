@@ -8080,6 +8080,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "16298db200567d7c": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "64a603ec209e4d47": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
