@@ -8171,6 +8171,34 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "8849fc3dea714d24": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "e55945a144e1ed45": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "479f655045a94af6": {
+   "score": 3,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "5dd413ab2d2a4181": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
