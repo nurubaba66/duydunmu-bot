@@ -8682,6 +8682,20 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "3db6623eb950d577": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "3c68ecd3e58aec62": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
