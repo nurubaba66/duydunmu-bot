@@ -4323,6 +4323,20 @@
    "category": "ULAŞIM",
    "review": false,
    "video": true
+  },
+  "934306df32e40384": {
+   "score": 6,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "f37b2a5a4c5119cb": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
