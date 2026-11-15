@@ -7630,6 +7630,20 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "94178d69f04f3fb0": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "1ca6d2412c816613": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
