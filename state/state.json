@@ -7862,6 +7862,27 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "64d9f1e11d112c6b": {
+   "score": 7,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": true
+  },
+  "e178c100d5ee8043": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "d3e4352691097c9b": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
