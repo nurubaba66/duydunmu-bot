@@ -4666,6 +4666,13 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "ef9fc914f2081ffb": {
+   "score": 5,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
