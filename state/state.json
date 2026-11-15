@@ -4708,6 +4708,27 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "5841b61a41ddc68f": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "1d249c13d5d2ebc0": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": true,
+   "video": false
+  },
+  "a543352dd4e97f00": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
