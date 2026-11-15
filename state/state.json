@@ -4680,6 +4680,13 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "f0ac34dba07c5199": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
