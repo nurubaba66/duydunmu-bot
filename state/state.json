@@ -4968,6 +4968,27 @@
    "category": "ULAŞIM",
    "review": false,
    "video": true
+  },
+  "784a5dd4a73cb736": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "d2a1a4ae810e8bcd": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "b8845f1064bcbcdf": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
