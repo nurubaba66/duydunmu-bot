@@ -8066,6 +8066,20 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "2e23f475650bfca5": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": true
+  },
+  "261d591af9c8b079": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
