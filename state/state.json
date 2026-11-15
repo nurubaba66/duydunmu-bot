@@ -7434,6 +7434,27 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "bc6d4ec9ec833b8a": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "865b7ff903cd815c": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "d2e4045848cdc3c5": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
