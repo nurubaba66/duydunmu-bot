@@ -4435,6 +4435,13 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "1400a0f95c4e17ea": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
