@@ -8542,6 +8542,13 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "92c13fe4af19a4d9": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
