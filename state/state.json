@@ -7139,6 +7139,27 @@
    "category": "TEKNOLOJİ",
    "review": false,
    "video": false
+  },
+  "eec5d87da50279f3": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "5aae2919045876ca": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": true
+  },
+  "b395b01160dff58c": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
