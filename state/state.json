@@ -8402,6 +8402,27 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "b235686e94a8830e": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "558971c762473c9b": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "fad69ca2e07b569e": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
