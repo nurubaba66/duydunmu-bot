@@ -7160,6 +7160,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": true
+  },
+  "42f6671e0ddeefe3": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a82f5290ee85e39a": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "61d3334de1a6bdec": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
