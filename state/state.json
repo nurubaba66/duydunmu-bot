@@ -7932,6 +7932,27 @@
    "category": "İLGİNÇ",
    "review": false,
    "video": false
+  },
+  "fcbda973c90a70af": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "cbf31fd7f086de96": {
+   "score": 2,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "19c30b56cf049298": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
