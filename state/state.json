@@ -8696,6 +8696,27 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "870c30e93d891459": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "91aacdd35be4e96e": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "eb16a1cb8e628941": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
