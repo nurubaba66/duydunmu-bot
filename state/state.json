@@ -4729,6 +4729,20 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "320f9bc2a006eecd": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "36e41db0052fd9f0": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
