@@ -7595,6 +7595,41 @@
    "category": "SAĞLIK",
    "review": false,
    "video": false
+  },
+  "755261d3006c2db3": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "338e47bc52baf23d": {
+   "score": 4,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": true,
+   "video": false
+  },
+  "2dc0dc8aacc3ba56": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "5a49ffdbe0e7810e": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "d3867cc8e9050549": {
+   "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
