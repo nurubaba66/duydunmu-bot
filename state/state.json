@@ -3,7 +3,8 @@
   "ef84b5db171f1078",
   "920c51e54eaf3245",
   "6681357f8a0de27c",
-  "1952e6ad016f3df7"
+  "1952e6ad016f3df7",
+  "7f15e1e7d84de76a"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -5262,13 +5263,203 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "a8636e1295328597": {
+   "score": 9,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "5d5acd01d30af948": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "24a496027c3eda60": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "85c7d77d4b3e674e": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "33c12acd74e4c30c": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "c4865a6fec00373e": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "8ce8132ab2f9b446": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "ca6ed0ba662494d8": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "c950091db3d9cb80": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "f5e269a90485262b": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "84032471b20f6c59": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "411b8c4f12df97b5": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "9150fe376af39e3c": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "22cb21dfeb7f271c": {
+   "score": 2,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "a4f626c14d12a9be": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "a2b3b0e52b09fc89": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "4a276f20a1fd9143": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "b852eb73c1882d33": {
+   "score": 2,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "7774086bbff482a5": {
+   "score": 2,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "178df512006c7f6c": {
+   "score": 1,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "501de850331a0358": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "1bee4e270208cf58": {
+   "score": 1,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "8a319f3354e183b1": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ff139159f7e844cf": {
+   "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "30b26c42453eba57": {
+   "score": 1,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "1e59ba1bbe802a09": {
+   "score": 1,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "53d67dc09a86e6da": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
   "2026-11-14-18",
   "2026-11-14-reel-20",
   "2026-11-14-21",
-  "2026-11-15-9"
+  "2026-11-15-9",
+  "2026-11-15-15"
  ],
  "breaking": {},
  "log": [
