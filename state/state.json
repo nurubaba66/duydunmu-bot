@@ -7791,6 +7791,20 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "918d1ccfaee85325": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "d61e4ba89b28cca9": {
+   "score": 3,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
