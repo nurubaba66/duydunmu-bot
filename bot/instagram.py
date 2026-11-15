@@ -1,3 +1,4 @@
+import json
 """Instagram Graph API ile tek görsel ve karusel paylaşımı."""
 import time
 from pathlib import Path
@@ -108,36 +109,48 @@ def _wait_ready(container_id: str, tries: int = 30):
     raise RuntimeError(f"Instagram işlemi zamanında bitmedi: {st}")
 
 
-def publish(paths: list[Path], caption: str) -> str:
+def publish(paths: list[Path], caption: str, collaborators: list[str] | None = None) -> str:
     if config.DRY_RUN:
         print("[DENEME] Paylaşılmadı:", [p.name for p in paths], "\n", caption)
         return "dry-run"
     uid, tok = ig_user_id(), config.IG_ACCESS_TOKEN
     urls = [upload_public(p) for p in paths]
     if len(urls) == 1:
-        c = _check(requests.post(_api(f"{uid}/media"), data={"image_url": urls[0], "caption": caption, "access_token": tok}, timeout=60))
+        c = _container({"image_url": urls[0], "caption": caption, "access_token": tok}, collaborators)
     else:
         kids = []
         for u in urls:
             k = _check(requests.post(_api(f"{uid}/media"), data={"image_url": u, "is_carousel_item": "true", "access_token": tok}, timeout=60))
             _wait_ready(k["id"])
             kids.append(k["id"])
-        c = _check(requests.post(_api(f"{uid}/media"), data={"media_type": "CAROUSEL", "children": ",".join(kids), "caption": caption, "access_token": tok}, timeout=60))
+        c = _container({"media_type": "CAROUSEL", "children": ",".join(kids), "caption": caption, "access_token": tok},
+                       collaborators)
     _wait_ready(c["id"])
     res = _check(requests.post(_api(f"{uid}/media_publish"), data={"creation_id": c["id"], "access_token": tok}, timeout=60))
     print("Paylaşıldı:", res.get("id"))
     return res.get("id", "")
 
 
-def publish_reel(path: Path, caption: str) -> str:
+def _container(data: dict, collaborators: list[str] | None) -> dict:
+    """Medya kabı oluşturur; ortak paylaşım (collab) daveti isteniyorsa ekler, olmazsa onsuz dener."""
+    uid = ig_user_id()
+    if collaborators:
+        r = requests.post(_api(f"{uid}/media"), data={**data, "collaborators": json.dumps(collaborators)}, timeout=60)
+        if r.ok and "id" in r.json():
+            print("Ortak paylaşım daveti eklendi:", collaborators)
+            return r.json()
+        print("Ortak paylaşım eklenemedi, tek hesapla devam:", r.text[:300])
+    return _check(requests.post(_api(f"{uid}/media"), data=data, timeout=60))
+
+
+def publish_reel(path: Path, caption: str, collaborators: list[str] | None = None) -> str:
     """Videoyu üçüncü taraf sunucu kullanmadan, doğrudan Instagram'a yükler (resumable upload)."""
     if config.DRY_RUN:
         print("[DENEME] Reels paylaşılmadı:", path.name)
         return "dry-run"
     uid, tok = ig_user_id(), config.IG_ACCESS_TOKEN
-    c = _check(requests.post(_api(f"{uid}/media"), data={
-        "media_type": "REELS", "upload_type": "resumable", "caption": caption,
-        "share_to_feed": "true", "access_token": tok}, timeout=60))
+    c = _container({"media_type": "REELS", "upload_type": "resumable", "caption": caption,
+                    "share_to_feed": "true", "access_token": tok}, collaborators)
     upload_uri = c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{config.GRAPH_VERSION}/{c['id']}"
     data = path.read_bytes()
     r = requests.post(upload_uri, data=data, timeout=600, headers={

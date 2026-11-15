@@ -26,9 +26,9 @@ def run(folder: str):
         post["files"] = [Path(x).name for x in paths]
     files = [base / f for f in post["files"]]
     if post["type"] == "reel":
-        media = instagram.publish_reel(files[0], post["caption"])
+        media = instagram.publish_reel(files[0], post["caption"], post.get("collaborators"))
     else:
-        media = instagram.publish(files, post["caption"])
+        media = instagram.publish(files, post["caption"], post.get("collaborators"))
     state = load_state()
     now = datetime.now(IST)
     state["log"].append({"t": now.isoformat(timespec="minutes"), "fmt": post["type"], "title": post["title"],
