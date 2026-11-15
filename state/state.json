@@ -8549,6 +8549,20 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": true
+  },
+  "e52fdee4003a8e28": {
+   "score": 7,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "c93aed49c17c1e92": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
