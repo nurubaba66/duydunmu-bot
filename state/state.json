@@ -6985,6 +6985,20 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "89999f88be12c0c5": {
+   "score": 8,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "d284702b4da30a54": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
