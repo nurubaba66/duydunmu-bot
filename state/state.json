@@ -7342,6 +7342,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "66f6dad2263dadd0": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "77943a32fbaf5873": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
