@@ -8318,6 +8318,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "2c3c70dcd013004b": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "e2818bb3d2170fc5": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
