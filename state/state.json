@@ -4884,6 +4884,27 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "462ba50bf00532c3": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "407bdfafa02fd646": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "f14fcdb8bd4d68f7": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
