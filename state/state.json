@@ -7749,6 +7749,34 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "f55cbe5d325324f7": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "8edb9f16a95ab33b": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "15d11235086af596": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "455168544435c79f": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
