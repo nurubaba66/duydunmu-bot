@@ -157,6 +157,9 @@ def publish_reel(path: Path, caption: str, collaborators: list[str] | None = Non
         "Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(len(data))})
     print("Video yüklendi:", r.status_code, r.text[:200])
     if not r.ok:
+        if collaborators:  # ortak paylaşımlı kap bazen yüklemeyi reddediyor: ortaksız tekrar dene
+            print("Ortak paylaşımla yükleme reddedildi, tek hesapla tekrar deneniyor.")
+            return publish_reel(path, caption, None)
         raise RuntimeError(f"Video yüklenemedi: {r.text[:300]}")
     _wait_ready(c["id"], tries=90)
     res = _check(requests.post(_api(f"{uid}/media_publish"), data={"creation_id": c["id"], "access_token": tok}, timeout=60))
