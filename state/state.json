@@ -8465,6 +8465,20 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "2368a984a0e99e3b": {
+   "score": 7,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "07a67d561a9b2a26": {
+   "score": 2,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
