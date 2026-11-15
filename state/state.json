@@ -8738,6 +8738,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "5faac3106950245e": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "e9304405462184c2": {
+   "score": 2,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
