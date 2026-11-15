@@ -8360,6 +8360,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "a4be4e712c478e4c": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
