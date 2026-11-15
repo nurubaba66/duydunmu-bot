@@ -2,7 +2,8 @@
  "posted": [
   "ef84b5db171f1078",
   "920c51e54eaf3245",
-  "6681357f8a0de27c"
+  "6681357f8a0de27c",
+  "1952e6ad016f3df7"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -4757,12 +4758,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "3e7be956f59fb2d3": {
+   "score": 2,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
   "2026-11-14-18",
   "2026-11-14-reel-20",
-  "2026-11-14-21"
+  "2026-11-14-21",
+  "2026-11-15-9"
  ],
  "breaking": {},
  "log": [
@@ -4826,6 +4835,13 @@
    "fmt": "hava",
    "title": "MGM uyarı 2026-11-15",
    "media": "18209923687373075"
+  },
+  {
+   "t": "2026-11-15T09:04+03:00",
+   "fmt": "card",
+   "title": "Milli Eğitim Bakanlığı ölçme ve değerlendirme kurallarını güncelledi",
+   "media": "18045167606838587",
+   "cat": "EĞİTİM"
   }
  ],
  "quakes": [],
