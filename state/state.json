@@ -8717,6 +8717,27 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "3378d088ac15a0ab": {
+   "score": 6,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "46803c2ff4a8d9db": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "0a369781fcca7efc": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
