@@ -7132,6 +7132,13 @@
    "category": "ASAYİŞ",
    "review": true,
    "video": true
+  },
+  "0a2345c58ff9a3a6": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
