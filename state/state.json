@@ -5,7 +5,8 @@
   "6681357f8a0de27c",
   "1952e6ad016f3df7",
   "7f15e1e7d84de76a",
-  "debaaf9a424e6886"
+  "debaaf9a424e6886",
+  "cb0c1ac6fee0c52b"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -7833,6 +7834,20 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "4337c0e1d633b44d": {
+   "score": 7,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "0cb2b4103d768549": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -7841,7 +7856,8 @@
   "2026-11-14-21",
   "2026-11-15-9",
   "2026-11-15-15",
-  "2026-11-15-18"
+  "2026-11-15-18",
+  "2026-11-15-reel-20"
  ],
  "breaking": {},
  "log": [
