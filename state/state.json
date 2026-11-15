@@ -4407,6 +4407,20 @@
    "category": "DEPREM",
    "review": false,
    "video": false
+  },
+  "e07c5677aba0d7b2": {
+   "score": 7,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "218e1fa3fbf6d186": {
+   "score": 6,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
