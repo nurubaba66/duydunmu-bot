@@ -7574,6 +7574,20 @@
    "category": "ULAŞIM",
    "review": false,
    "video": false
+  },
+  "e0b3a75db7ea98a7": {
+   "score": 3,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "05084a04dc012de3": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
