@@ -8577,6 +8577,20 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "a4adb37e585b848b": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "f8d39f02489148f4": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
