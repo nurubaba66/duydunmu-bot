@@ -4673,6 +4673,13 @@
    "category": "MAGAZİN",
    "review": false,
    "video": true
+  },
+  "540ae4825a63c767": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
