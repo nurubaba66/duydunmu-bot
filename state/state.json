@@ -7504,6 +7504,13 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "e8d99e537840e992": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
