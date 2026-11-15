@@ -8493,6 +8493,20 @@
    "category": "DEPREM",
    "review": false,
    "video": false
+  },
+  "e9ab0ee3bf57bccf": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "8d9cf90f2af6d9f6": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
