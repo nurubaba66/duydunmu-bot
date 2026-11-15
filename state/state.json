@@ -4295,6 +4295,27 @@
    "category": "ULAŞIM",
    "review": false,
    "video": false
+  },
+  "f177295d62ac2eb2": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "bd41c6dae4774dec": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "1f03cbc8d4692d44": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
