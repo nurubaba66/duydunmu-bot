@@ -16,20 +16,6 @@
   "a2d7e99ee38747b1"
  ],
  "scores": {
-  "07c69f5f20d9c72a": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": true
-  },
-  "73bb126259f48dd2": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "b3a8b22cfc3b3574": {
    "score": 3,
    "breaking": false,
@@ -10513,6 +10499,20 @@
    "score": 1,
    "breaking": false,
    "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "8a75f5b4a55757bb": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "414af74fb926b2f2": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
    "review": false,
    "video": false
   }
