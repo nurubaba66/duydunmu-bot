@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "986ebd9868568538": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "222a3bcede75c289": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "5ac1d79a9bbdb966": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
    "review": false,
    "video": false
   }
