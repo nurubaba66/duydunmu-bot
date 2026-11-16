@@ -15,20 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "976f5d7829cf7bd3": {
-   "score": 1,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "4205235d0f210820": {
-   "score": 4,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
   "dcd1d53067d8eca7": {
    "score": 4,
    "breaking": false,
@@ -10514,6 +10500,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "4142331d1a1a8bfd": {
+   "score": 8,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "2e4e267676192810": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
