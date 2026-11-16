@@ -9095,6 +9095,20 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "f91fa11da1a31aaf": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "6d40944a7e45532d": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
