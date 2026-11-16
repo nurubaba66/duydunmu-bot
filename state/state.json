@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "7bd85d6972a4cb02": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "22451cc956a0d753": {
    "score": 2,
    "breaking": false,
@@ -10515,6 +10508,13 @@
    "breaking": false,
    "category": "SPOR",
    "review": true,
+   "video": false
+  },
+  "49ae7bd5116b0099": {
+   "score": 3,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
    "video": false
   }
  },
