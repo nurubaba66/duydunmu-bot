@@ -16,41 +16,6 @@
   "a2d7e99ee38747b1"
  ],
  "scores": {
-  "f875cd1127d92dab": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "1bbca7816af24a93": {
-   "score": 2,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "cd04b3894d9bcfbc": {
-   "score": 2,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "700fe73b2ab3fc69": {
-   "score": 9,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "12aaac7cec6976ae": {
-   "score": 7,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "07c69f5f20d9c72a": {
    "score": 5,
    "breaking": false,
@@ -10513,6 +10478,41 @@
    "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "17bf15a5f05d2e00": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "f6e39a778b89251a": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "53f2763e9dcaa596": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "158ec0441c45242a": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "33cec9864117b798": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
    "review": false,
    "video": false
   }
