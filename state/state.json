@@ -9992,6 +9992,34 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "1c9ca3b09a174018": {
+   "score": 3,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "d8e7e8b5271cf868": {
+   "score": 2,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "2e9eb2520eea3b7f": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "71d4fdc097575bac": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
