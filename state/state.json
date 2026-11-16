@@ -9116,6 +9116,13 @@
    "category": "DEPREM",
    "review": false,
    "video": false
+  },
+  "f11768da1930746a": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
