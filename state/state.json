@@ -9564,6 +9564,27 @@
    "category": "DEPREM",
    "review": false,
    "video": false
+  },
+  "5158f49e416363a4": {
+   "score": 8,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "c13268cf44fae35b": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "173aba23c55b9dea": {
+   "score": 3,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
