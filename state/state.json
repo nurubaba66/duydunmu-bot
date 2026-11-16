@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "2e4ee3185d3a9757": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "be4a6795894ec10c": {
    "score": 3,
    "breaking": false,
@@ -10516,6 +10509,13 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": true
+  },
+  "cbd03d59afe3e750": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
