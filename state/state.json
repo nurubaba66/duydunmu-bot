@@ -11,62 +11,6 @@
   "5158f49e416363a4"
  ],
  "scores": {
-  "5a2e2e8fdf3e531a": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "93f47ffcb9fa0cb6": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "b9f21cd0582a3b3b": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "fd80e80a9fb63da3": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "1250af38445af7ef": {
-   "score": 8,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": true
-  },
-  "2bb0a87f28be297a": {
-   "score": 7,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "67213c1c888a5d80": {
-   "score": 7,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "dbf60e722555759e": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
   "24bf4d95d4700e88": {
    "score": 6,
    "breaking": false,
@@ -10508,6 +10452,62 @@
    "score": 4,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "0f78be18d0724a27": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "f2b53839341fdb88": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a8b31155fd2f8e04": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "614b43d206158499": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "5cde9b6e66685678": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "d5d0e9741119628b": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "81c61a2946f5b5e3": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "79a26ff86c21803d": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
    "review": false,
    "video": false
   }
