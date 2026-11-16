@@ -11,20 +11,6 @@
   "5158f49e416363a4"
  ],
  "scores": {
-  "9d3f1a816acc6e3f": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "e0f6d8d20a9cb06d": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "5a2e2e8fdf3e531a": {
    "score": 2,
    "breaking": false,
@@ -10509,6 +10495,20 @@
    "breaking": false,
    "category": "SİYASET",
    "review": true,
+   "video": false
+  },
+  "4e485389556a9cae": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "cd681faed67de835": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
    "video": false
   }
  },
