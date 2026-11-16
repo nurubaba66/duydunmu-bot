@@ -9536,6 +9536,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "c07d0486be180b30": {
+   "score": 8,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "42fb39d65cd2a1e9": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "21adf6e5ba729d1d": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
