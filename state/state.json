@@ -11,27 +11,6 @@
   "5158f49e416363a4"
  ],
  "scores": {
-  "9f85506006088b16": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "c2c81b289132aedf": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": true
-  },
-  "ae48f71ef98e52b7": {
-   "score": 5,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
   "d25a5e14191879ea": {
    "score": 5,
    "breaking": false,
@@ -10510,6 +10489,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": true
+  },
+  "54d74e68ccec50f7": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "bf01542819cc8487": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "701774ba5c83a881": {
+   "score": 1,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
