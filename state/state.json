@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "6a2f205af8f6d3d1": {
-   "score": 6,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "c7067c3dc63c9c41": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "8cb6f2c1a671fcc7": {
-   "score": 6,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
   "75f7c1c5de0325ab": {
    "score": 5,
    "breaking": false,
@@ -10516,6 +10495,27 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "4e1afbc019f7339f": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "9233587acdd18369": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "accc6a78ef3d157c": {
+   "score": 2,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
