@@ -13,62 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "1ee8c1e9ed97307e": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "b1e366720209c2ef": {
-   "score": 1,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "a27bd0f25a4611a7": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "2f36159f0b5a0adb": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "59e3e35f0c2688dd": {
-   "score": 8,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "3d6228d323ae7b0d": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "00f606c052c02de6": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "29e5155550cacfee": {
-   "score": 5,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": true
-  },
   "3187d10fa3913fd5": {
    "score": 5,
    "breaking": false,
@@ -10510,6 +10454,62 @@
    "score": 1,
    "breaking": false,
    "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "c4834bb31858ee76": {
+   "score": 5,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "15b88d2b60578796": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "717ac627c16978a4": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": true
+  },
+  "2182035de717e56e": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "ece25f1febaf139e": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "369138c0c9399632": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "22c579c3954deba0": {
+   "score": 1,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "073a4dd42e77fd0b": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
