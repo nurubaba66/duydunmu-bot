@@ -16,13 +16,6 @@
   "a2d7e99ee38747b1"
  ],
  "scores": {
-  "89b0f342e33896d5": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
   "1f8f38b05fd046dc": {
    "score": 5,
    "breaking": false,
@@ -10513,6 +10506,13 @@
    "score": 3,
    "breaking": false,
    "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "ac22ebf8f43e8ed8": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
