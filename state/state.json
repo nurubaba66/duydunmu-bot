@@ -9060,6 +9060,13 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "b8bc8a93bcb5cf63": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": true
   }
  },
  "slots_done": [
