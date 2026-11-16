@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "fa169c0baf8c16eb": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "0a5b68524cb24c99": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": true
-  },
   "7be5c8eba287869a": {
    "score": 5,
    "breaking": false,
@@ -10516,6 +10502,20 @@
    "category": "TEKNOLOJİ",
    "review": false,
    "video": false
+  },
+  "2363377d9566d9a6": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": true,
+   "video": false
+  },
+  "9e3533086f832207": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
