@@ -9424,6 +9424,20 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "5f8efc8d9a8c855d": {
+   "score": 7,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "8977655d33c2f905": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
