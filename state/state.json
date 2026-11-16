@@ -13,83 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "8f418e00458a7ffa": {
-   "score": 8,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "b535a6918771f2d0": {
-   "score": 7,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "284f5a5046c526f4": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "37b22735ffbce603": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "a358b3d01af938a9": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "fb1ecf0a44fbd4ac": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "9b3068a489262bd6": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": true
-  },
-  "1f51cdd47dce7950": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "4c6509a139ba19b8": {
-   "score": 6,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "10f7be533c7da458": {
-   "score": 6,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "e2e7cd6348729217": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": true
-  },
   "22dfcfb4fcd50676": {
    "score": 5,
    "breaking": false,
@@ -10512,6 +10435,83 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "ebfa617b5c5ff8fd": {
+   "score": 8,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "b712a2ecc4d776db": {
+   "score": 7,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "ff3cdaebbec8afb3": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "08e7863cac4d355e": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "5d3e2128ab10fc71": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "694d5e51b361840e": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "88dcfa593d853372": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "c6c8ab764abbf0f9": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "ec76a00bebfeba21": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "b75c978a8fbbd29e": {
+   "score": 2,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "d0ede41a7e6f69fe": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
