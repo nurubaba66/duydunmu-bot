@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "42187aa1cdec80fb": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": true
-  },
   "9e09f5eb17764d24": {
    "score": 2,
    "breaking": false,
@@ -10515,6 +10508,13 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": true,
+   "video": false
+  },
+  "d9a9f598efa16db8": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
    "video": false
   }
  },
