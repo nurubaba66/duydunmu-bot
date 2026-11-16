@@ -12,44 +12,10 @@
   "0f78be18d0724a27",
   "640cf78bbbfd9a70",
   "fbb3b25b9785cdd0",
-  "1a74751933c859a2"
+  "1a74751933c859a2",
+  "a2d7e99ee38747b1"
  ],
  "scores": {
-  "5ef4b55ffc69dbc2": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "bb4a42b99d724a30": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "f344765681567ae7": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "cf5ff242dfe4b3d1": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "7532beaed530cfa2": {
-   "score": 3,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
   "f875cd1127d92dab": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10480,41 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "177c9fdc02bd944b": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": true
+  },
+  "85417220614f2dd1": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "03de06fd98fe6d9d": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "ac9c769bea14f6f1": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "d7a26a630fd75605": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10529,7 +10530,8 @@
   "2026-11-16-12",
   "2026-11-16-reel-13",
   "2026-11-16-15",
-  "2026-11-16-18"
+  "2026-11-16-18",
+  "2026-11-16-reel-20"
  ],
  "breaking": {},
  "log": [
