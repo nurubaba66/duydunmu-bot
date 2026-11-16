@@ -9634,6 +9634,13 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "e32b88e0cd898f26": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
