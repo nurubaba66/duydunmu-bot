@@ -9081,6 +9081,20 @@
    "category": "DEPREM",
    "review": false,
    "video": false
+  },
+  "bd96ed47d663c35c": {
+   "score": 4,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "3d8a0817729498e8": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
