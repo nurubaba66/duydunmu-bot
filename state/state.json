@@ -13,27 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "b885b97a4de6cc7f": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "4d07eb90a0f8429f": {
-   "score": 8,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "52a053bbd6f6b6a1": {
-   "score": 6,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "7542e2beff37251a": {
    "score": 5,
    "breaking": false,
@@ -10512,6 +10491,27 @@
    "category": "DÜNYA",
    "review": false,
    "video": true
+  },
+  "9fc2f60edb2fc891": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "d30948c54855cd2a": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "6ab12e8dc1dde18f": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
