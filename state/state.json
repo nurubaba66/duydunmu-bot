@@ -15,20 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "b8845f1064bcbcdf": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "29c376cd30178ba9": {
-   "score": 7,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "31241c9afc63af68": {
    "score": 6,
    "breaking": false,
@@ -10510,6 +10496,20 @@
   },
   "14dad32191157247": {
    "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "b8d31ca27104a198": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "23290abfe4e81ab5": {
+   "score": 5,
    "breaking": false,
    "category": "SİYASET",
    "review": true,
