@@ -9557,6 +9557,13 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "41df148c8afdf202": {
+   "score": 4,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
