@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "283f0dc30f1f3814": {
-   "score": 3,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
   "1d5395057fb77d95": {
    "score": 3,
    "breaking": false,
@@ -10512,6 +10505,13 @@
   },
   "734481a2ab46bae2": {
    "score": 5,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "42382860ace78417": {
+   "score": 4,
    "breaking": false,
    "category": "DEPREM",
    "review": false,
