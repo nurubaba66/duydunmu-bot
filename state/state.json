@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "04c28ef69fd48524": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "283f0dc30f1f3814": {
    "score": 3,
    "breaking": false,
@@ -10516,6 +10509,13 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": true
+  },
+  "734481a2ab46bae2": {
+   "score": 5,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
