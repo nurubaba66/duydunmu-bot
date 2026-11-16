@@ -14,55 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "2f6181f747456f75": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "75e113075c9810ba": {
-   "score": 3,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "e7cbb919aba409ef": {
-   "score": 2,
-   "breaking": false,
-   "category": "DEPREM",
-   "review": false,
-   "video": false
-  },
-  "abb886af2e719e5b": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "ca7e7165691c4760": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "228942b8f7acc8de": {
-   "score": 2,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": true,
-   "video": false
-  },
-  "f817580e64521a0d": {
-   "score": 2,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
   "77d36972a8bd8058": {
    "score": 2,
    "breaking": false,
@@ -10509,6 +10460,55 @@
   },
   "cad8c49c61686738": {
    "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "2e09091f6e48f9ab": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "850d2e0fe4729db3": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "f3268f1a81c389f5": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "9a553530539c7d52": {
+   "score": 4,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "ef521b2c44b2a0d0": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "cbfff854b179fb13": {
+   "score": 2,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "2ac158724a6ac1f2": {
+   "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
    "review": false,
