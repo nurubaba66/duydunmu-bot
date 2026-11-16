@@ -13,27 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "b80b8708aa4b0599": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "057cf757ea0b2582": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "19be3e0f0d8461fa": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": true
-  },
   "f8267c0c45b9ca03": {
    "score": 2,
    "breaking": false,
@@ -10512,6 +10491,27 @@
    "category": "SİYASET",
    "review": true,
    "video": true
+  },
+  "569546218adcdea4": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "52711a9cb6275e3c": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": true
+  },
+  "a284f127430df1ff": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
