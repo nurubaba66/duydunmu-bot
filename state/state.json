@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "7be5c8eba287869a": {
-   "score": 5,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": true
-  },
-  "185b6d1c1957e6d5": {
-   "score": 5,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": true
-  },
   "04c28ef69fd48524": {
    "score": 3,
    "breaking": false,
@@ -10511,6 +10497,20 @@
    "video": false
   },
   "9e3533086f832207": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
+  },
+  "b68f39fc2c7896d0": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "6d0fde47f7809c9e": {
    "score": 3,
    "breaking": false,
    "category": "ASAYİŞ",
