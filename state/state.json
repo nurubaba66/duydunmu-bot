@@ -10020,6 +10020,41 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "384d4ccaf64c8a3e": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "496b2be25a897752": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "1db84a6df9db3e77": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "e697a55440d2e91e": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "17f6535ea2009d69": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
