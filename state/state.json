@@ -8969,6 +8969,34 @@
    "category": "SPOR",
    "review": false,
    "video": false
+  },
+  "f0a4231080713ef6": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "07f5b895d793ff89": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "efc018c17db6433a": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "4ef3db462e01f4f0": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
