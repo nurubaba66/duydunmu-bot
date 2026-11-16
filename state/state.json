@@ -9004,6 +9004,20 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "d9db63afcd9c1cbc": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": true,
+   "video": false
+  },
+  "cb1483499d580861": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
