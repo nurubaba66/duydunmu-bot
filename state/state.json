@@ -13,20 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "b5665e5235ceb678": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "666618ff03f654c8": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "5b1710c1da6d42ea": {
    "score": 1,
    "breaking": false,
@@ -10510,6 +10496,20 @@
    "score": 1,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "90e9a61a1b1b1b3e": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "1bd157e41e653a6e": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
