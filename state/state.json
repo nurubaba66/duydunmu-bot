@@ -9438,6 +9438,34 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "0214fd601c90110a": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "315d47df1e94d3e3": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "b8db708d236b9576": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "271242760b4fd3db": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
