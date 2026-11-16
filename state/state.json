@@ -9508,6 +9508,20 @@
    "category": "MAGAZİN",
    "review": false,
    "video": false
+  },
+  "8762aba61f212b4e": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "2c55d4df6bc77ada": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
