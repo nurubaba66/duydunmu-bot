@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "d5bc6def2501cb2e": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "cd05f5ff2c3d7170": {
-   "score": 7,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "fd5acc94ebbd5d09": {
-   "score": 6,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
   "6a2f205af8f6d3d1": {
    "score": 6,
    "breaking": false,
@@ -10514,6 +10493,27 @@
    "score": 4,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "4b2e97bd09b8a6f7": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": true,
+   "video": false
+  },
+  "f9610b8fbf50a628": {
+   "score": 6,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "dc1368c46cbb3233": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
