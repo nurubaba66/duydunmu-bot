@@ -9466,6 +9466,27 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "82d004ebc24bd05a": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": true,
+   "video": false
+  },
+  "8a6c89920d700615": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "376ee8637cf154d3": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
