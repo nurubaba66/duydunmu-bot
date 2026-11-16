@@ -13,27 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "28e78eb7447833e7": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "b8b9637509bdce13": {
-   "score": 3,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "fa7f1b498f041959": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "2cf4a362e515e253": {
    "score": 1,
    "breaking": false,
@@ -10510,6 +10489,27 @@
    "score": 6,
    "breaking": false,
    "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "0355b42fb47853c8": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "d3ff7f5d2c7020fb": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "f5996a814918b6c5": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
    "review": false,
    "video": false
   }
