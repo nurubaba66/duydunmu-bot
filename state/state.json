@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "be4a6795894ec10c": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "7d1043d6337dc76d": {
-   "score": 2,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "3088b6d1313d41b7": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "378e43d5284f8aea": {
    "score": 2,
    "breaking": false,
@@ -10511,6 +10490,27 @@
    "video": true
   },
   "cbd03d59afe3e750": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "2ace363e8c58a6b0": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "bfe0f18876fe9771": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "a5bfda3d8607dbcf": {
    "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
