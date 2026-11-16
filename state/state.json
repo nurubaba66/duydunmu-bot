@@ -7,7 +7,8 @@
   "7f15e1e7d84de76a",
   "debaaf9a424e6886",
   "cb0c1ac6fee0c52b",
-  "64d9f1e11d112c6b"
+  "64d9f1e11d112c6b",
+  "5158f49e416363a4"
  ],
  "scores": {
   "387b5b97899255b1": {
@@ -9739,6 +9740,13 @@
    "category": "EKONOMİ",
    "review": false,
    "video": false
+  },
+  "584156c23a25fa6a": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": true,
+   "video": true
   }
  },
  "slots_done": [
@@ -9749,7 +9757,8 @@
   "2026-11-15-15",
   "2026-11-15-18",
   "2026-11-15-reel-20",
-  "2026-11-15-21"
+  "2026-11-15-21",
+  "2026-11-16-9"
  ],
  "breaking": {},
  "log": [
