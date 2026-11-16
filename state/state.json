@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "3d7f865f1356a9fb": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": true
-  },
   "03a4ef5a42c1ecf0": {
    "score": 3,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a34e9b209cc9d721": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
    "review": false,
    "video": false
   }
