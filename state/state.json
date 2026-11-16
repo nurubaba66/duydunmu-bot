@@ -14,55 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "12f285d910329222": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "61c038a96e7088d6": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "d844ff51375a4d31": {
-   "score": 8,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "eb80ff0ccd810d03": {
-   "score": 7,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "e8f113ad4b990385": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": true
-  },
-  "e87af8f3795b4ca2": {
-   "score": 6,
-   "breaking": true,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "d86796fdcf19d91f": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "097634d53ed70126": {
    "score": 3,
    "breaking": false,
@@ -10509,6 +10460,55 @@
   },
   "2df5ea8b85d3ebdc": {
    "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "6c5d15213a5a1169": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "9b75ed44c3a53c12": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "5372fbff827d927f": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "490915b4dfb4bb08": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "3f3e1a8955f6b9e6": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "3c2c6d1d11756df5": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "eb08682f62e117b4": {
+   "score": 2,
    "breaking": false,
    "category": "HAYAT",
    "review": false,
