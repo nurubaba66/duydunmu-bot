@@ -14,55 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "c0aaba7af6829c12": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "20534801d4311a59": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "c19c142a0a8cba16": {
-   "score": 4,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "62e7e392b68a50da": {
-   "score": 8,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "1b72c14a9380db59": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "99f7f3f9e2127efb": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "dc4d95f883fe4e85": {
-   "score": 5,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "9050fca0f887b890": {
    "score": 1,
    "breaking": false,
@@ -10511,6 +10462,55 @@
    "score": 1,
    "breaking": false,
    "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "93984f6b072ac007": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "45462546e0b92b43": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "1f2fb24c58365d22": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "09a81994eeba222e": {
+   "score": 3,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": true,
+   "video": false
+  },
+  "99ca038610f13e69": {
+   "score": 3,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "dd837fc28ef07488": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "947e26add61496c2": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
