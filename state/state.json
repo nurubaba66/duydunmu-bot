@@ -15,34 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "52cda6603bf6b3ed": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
-  "231da39499decdeb": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": true
-  },
-  "784a5dd4a73cb736": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "d2a1a4ae810e8bcd": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
   "b8845f1064bcbcdf": {
    "score": 3,
    "breaking": false,
@@ -10510,6 +10482,34 @@
   },
   "c52912e8ba2e9941": {
    "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "3394e562827cf726": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "be60e2d848f579f1": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "2036a541465d6ae6": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "14dad32191157247": {
+   "score": 1,
    "breaking": false,
    "category": "SİYASET",
    "review": true,
