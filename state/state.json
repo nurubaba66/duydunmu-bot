@@ -14,27 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "5ce06366aa15dd27": {
-   "score": 7,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "32695e0d49b0f15e": {
-   "score": 1,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
-  "13741d87eb910530": {
-   "score": 1,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": true
-  },
   "098e0c823d3e5d89": {
    "score": 2,
    "breaking": false,
@@ -10512,6 +10491,27 @@
    "breaking": false,
    "category": "TEKNOLOJİ",
    "review": false,
+   "video": false
+  },
+  "c9f21ae2314b3976": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "7857c8eaa0dca275": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "efc27314c79630e3": {
+   "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
