@@ -15,34 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "dcd1d53067d8eca7": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "c997466d370e4a35": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "451162e3f8f52835": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "35f66113e4530cd7": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "f5d38f2d9b0d2173": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10486,34 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "6fe3de257050575a": {
+   "score": 7,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "680c972f0990f0de": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "8f3b0ea7dc779b6a": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "507b56ba841d056e": {
+   "score": 1,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
