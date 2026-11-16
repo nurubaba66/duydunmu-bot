@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "f2f8ecea92165aa8": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "7923c0da177be879": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "986ebd9868568538": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10500,20 @@
    "score": 3,
    "breaking": false,
    "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "f8625a2d93fcade7": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a1b9f60b49b5d4fb": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
