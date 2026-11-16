@@ -11,16 +11,10 @@
   "5158f49e416363a4",
   "0f78be18d0724a27",
   "640cf78bbbfd9a70",
-  "fbb3b25b9785cdd0"
+  "fbb3b25b9785cdd0",
+  "1a74751933c859a2"
  ],
  "scores": {
-  "96d6152d297a2537": {
-   "score": 7,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": true
-  },
   "9bd508ac3b1ea4ba": {
    "score": 6,
    "breaking": false,
@@ -10513,6 +10507,13 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "9d361c21abea2a19": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10527,7 +10528,8 @@
   "2026-11-16-9",
   "2026-11-16-12",
   "2026-11-16-reel-13",
-  "2026-11-16-15"
+  "2026-11-16-15",
+  "2026-11-16-18"
  ],
  "breaking": {},
  "log": [
@@ -10633,6 +10635,14 @@
    "title": "Hande Erçel Vogue Arabia partisi",
    "media": "18027376733949174",
    "manual": true
+  },
+  {
+   "t": "2026-11-16T18:03+03:00",
+   "fmt": "carousel",
+   "title": "Emekliler seyyanen zam için meydanlara çıkıyor: Emeklinin 42 aylık alacağı 1 milyonu geçti!",
+   "media": "onay-bekliyor#3",
+   "review": true,
+   "cat": "EKONOMİ"
   }
  ],
  "quakes": [],
