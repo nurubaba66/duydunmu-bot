@@ -14,41 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "6f508d6c41e05708": {
-   "score": 8,
-   "breaking": true,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "1400a0f95c4e17ea": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "962099fd081387bc": {
-   "score": 8,
-   "breaking": true,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "2d7cad968f5fef8e": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "6b39dbac909a577b": {
-   "score": 8,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
   "96d6152d297a2537": {
    "score": 7,
    "breaking": false,
@@ -10511,6 +10476,41 @@
    "score": 3,
    "breaking": false,
    "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "5c3cd1313cf8a330": {
+   "score": 7,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "2d76d58e603f9042": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "7d73702a6347f8b9": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "07faa99956cf93bc": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "9342ab0674185d33": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
    "review": false,
    "video": false
   }
