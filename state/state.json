@@ -14,55 +14,6 @@
   "fbb3b25b9785cdd0"
  ],
  "scores": {
-  "d2a4412b340f1a99": {
-   "score": 7,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "b94dcf89a6ede749": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "316193cd13d4cf4a": {
-   "score": 6,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "7a5d3e6423bbb9d4": {
-   "score": 6,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "276d554d3eb078b1": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": true
-  },
-  "416905e4c8d12084": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "740aa6416f160f7b": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "0223623df8564ded": {
    "score": 4,
    "breaking": false,
@@ -10509,6 +10460,55 @@
   },
   "353f5294b874ab90": {
    "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a417b21618f7f52b": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "52f75a9e49eae971": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "f789475fa438ed58": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "462214ac4691181d": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "8dbec73cea705637": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "d4ac5dd6fe85b33c": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "574cfdc36d82378d": {
+   "score": 1,
    "breaking": false,
    "category": "GÜNDEM",
    "review": false,
