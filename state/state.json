@@ -13,55 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "ef84b5db171f1078": {
-   "score": 9,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "f18ef4e2da06bb62": {
-   "score": 8,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "93e7f10ece3efa8b": {
-   "score": 8,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "042482229f3fc896": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "3e914c75d5729bfe": {
-   "score": 6,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": true
-  },
-  "b820f7d65706093a": {
-   "score": 5,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "e5c97c4f694f1214": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAVA",
-   "review": true,
-   "video": false
-  },
   "031f2761d7ca1af2": {
    "score": 5,
    "breaking": false,
@@ -10510,6 +10461,55 @@
    "score": 2,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "eae7c8aa4a5da40c": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "25766d3a31338349": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "c5917a2f082a6ac3": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "7ab3d782eff08f4b": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "ab41b8b88a3c3edc": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": true,
+   "video": false
+  },
+  "ff6a1b3e420fad76": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "ea1a23538b509552": {
+   "score": 1,
+   "breaking": false,
+   "category": "EKONOMİ",
    "review": false,
    "video": false
   }
