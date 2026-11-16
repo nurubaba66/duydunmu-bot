@@ -15,27 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "31241c9afc63af68": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "ac29ed1c4911c75e": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "a2f5d49c7cd2ea09": {
-   "score": 3,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
   "20cb9a0bed79de29": {
    "score": 2,
    "breaking": false,
@@ -10512,6 +10491,27 @@
    "score": 5,
    "breaking": false,
    "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "6dec8f7a2ba9fa2b": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "99f6d2f611daf491": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "df16bf28d4fd1de9": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
    "review": true,
    "video": false
   }
