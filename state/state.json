@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "e4353fe1242e6b68": {
-   "score": 2,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "6fa49bfb8883e43b": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "93c067429adb5fdb": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "8d156eeda43aff4a": {
    "score": 1,
    "breaking": false,
@@ -10512,6 +10491,27 @@
   },
   "84ebc044bf275d53": {
    "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "857aad8bccdf728c": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": true,
+   "video": false
+  },
+  "b4d492d8d9b700a7": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "19faeaf4de85c1f7": {
+   "score": 3,
    "breaking": false,
    "category": "SAĞLIK",
    "review": false,
