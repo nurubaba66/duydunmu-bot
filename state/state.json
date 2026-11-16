@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "4d2bfeed3d3649be": {
-   "score": 1,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "4de382d6918c9177": {
    "score": 6,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 1,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "66b1b57c9333bd25": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
    "review": false,
    "video": false
   }
