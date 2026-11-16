@@ -9123,6 +9123,27 @@
    "category": "DÜNYA",
    "review": true,
    "video": false
+  },
+  "f462f9ee540f30dd": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "7979882b6cca45e8": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": true
+  },
+  "e497f39a4d7953fa": {
+   "score": 3,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
