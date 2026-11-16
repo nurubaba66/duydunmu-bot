@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "043461eb781c51a2": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "02a407ad2a6f8835": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "ad0dc91462f9a91f": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "584b422dfd6c4c09": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10495,27 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "ecf78796c9cdf309": {
+   "score": 5,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "6235f7f966b71ffa": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "20052a1d8b62a218": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
