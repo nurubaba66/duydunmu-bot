@@ -13,27 +13,6 @@
   "640cf78bbbfd9a70"
  ],
  "scores": {
-  "7ce5c8d3bc29465a": {
-   "score": 1,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "711888394cf38c87": {
-   "score": 1,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "4e6e78d44b49f5c5": {
-   "score": 4,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
   "b5665e5235ceb678": {
    "score": 4,
    "breaking": false,
@@ -10510,6 +10489,27 @@
    "score": 2,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "63d61a7d52670f1b": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "5da7f1267f36e0df": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "24e2cbc96050ee29": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
