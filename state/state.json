@@ -15,13 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "8192ad913b1afa7c": {
-   "score": 4,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
   "e3d9fa7b3198441c": {
    "score": 3,
    "breaking": false,
@@ -10513,6 +10506,13 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": false,
+   "video": false
+  },
+  "8effdd9d13ace6df": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
