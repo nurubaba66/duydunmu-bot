@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "64b2bafda82dde4b": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": true
-  },
-  "c948810460440680": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "177f8184a5c30dfe": {
    "score": 3,
    "breaking": false,
@@ -10515,6 +10501,20 @@
    "breaking": false,
    "category": "EKONOMİ",
    "review": false,
+   "video": false
+  },
+  "e14b5e56925246e2": {
+   "score": 5,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "52800be7766c860b": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
    "video": false
   }
  },
