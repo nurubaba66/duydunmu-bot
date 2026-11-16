@@ -9873,6 +9873,55 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": false
+  },
+  "93552f1d8b23d0ca": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "28238cbcbe0504b1": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "c0c15acc4ba5e04c": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "2d5039f19b517f7e": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "dea6ce716c1f4d4b": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "2078c267624acaf4": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
+  },
+  "8c37192421e905e1": {
+   "score": 1,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
