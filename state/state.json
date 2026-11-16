@@ -9669,6 +9669,13 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "c85d5008d8f2d662": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
