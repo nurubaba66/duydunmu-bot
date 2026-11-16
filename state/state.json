@@ -9487,6 +9487,27 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "aedbf37f35d46071": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "1575d290bbee9290": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "b8738af1530c337d": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
