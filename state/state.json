@@ -8801,6 +8801,13 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "edb9cea4d0d6dcbd": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
