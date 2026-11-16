@@ -9158,6 +9158,27 @@
    "category": "MAGAZİN",
    "review": true,
    "video": false
+  },
+  "578583a1366ff2cd": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "1ed4c860d9c2729a": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAVA",
+   "review": true,
+   "video": false
+  },
+  "15d3fd6b8936ef27": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
