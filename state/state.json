@@ -16,13 +16,6 @@
   "a2d7e99ee38747b1"
  ],
  "scores": {
-  "4d5d7401b1b97292": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "ef7e730880e96150": {
    "score": 3,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "breaking": false,
    "category": "SİYASET",
    "review": true,
+   "video": false
+  },
+  "b0a304646b2efd0c": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
    "video": false
   }
  },
