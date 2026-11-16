@@ -15,34 +15,6 @@
   "1a74751933c859a2"
  ],
  "scores": {
-  "74aaa60508565abb": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "1bea070843bb09b4": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "45d0347bd22ab85e": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": true
-  },
-  "d7eb10ef35fc4d86": {
-   "score": 1,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "462ba50bf00532c3": {
    "score": 5,
    "breaking": false,
@@ -10512,6 +10484,34 @@
    "score": 4,
    "breaking": false,
    "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "d9c7dd81cd43db79": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
+  },
+  "9cfa0942877ad075": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "acd066724574afb4": {
+   "score": 4,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "98a0ea7e6e4e8900": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": true,
    "video": false
   }
