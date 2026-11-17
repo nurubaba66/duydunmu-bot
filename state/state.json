@@ -23,27 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "43d82aad8834fd29": {
-   "score": 2,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "3357252085b6a346": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "bdd63b826dc0b3af": {
-   "score": 1,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "c559d139f656e345": {
    "score": 1,
    "breaking": false,
@@ -10517,6 +10496,27 @@
    "video": false
   },
   "000ee0e08f1621cf": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "4a60d2d254a7c99e": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "25a84135eb0ee8fd": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "340e28893b33346d": {
    "score": 2,
    "breaking": false,
    "category": "GÜNDEM",
