@@ -22,20 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "09c143086557b901": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "06e74c6f8663c028": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "a5e2793141279a34": {
    "score": 3,
    "breaking": false,
@@ -10519,6 +10505,20 @@
    "score": 1,
    "breaking": false,
    "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "a7bb783559fd0b10": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "b0cac0c605a99aea": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
    "review": false,
    "video": false
   }
