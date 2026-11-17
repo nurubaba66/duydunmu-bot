@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "5e8263105455eaf6": {
-   "score": 8,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "b8078e236636f571": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "061d053d0111d345": {
    "score": 2,
    "breaking": false,
@@ -10521,6 +10507,20 @@
   },
   "a88e9214d2629616": {
    "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "141457958db9e55e": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "84882db100a6cb2c": {
+   "score": 1,
    "breaking": false,
    "category": "DÜNYA",
    "review": false,
