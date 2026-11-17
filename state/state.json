@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "d8526a9621eaa41e": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": false,
-   "video": false
-  },
-  "9f74e2073d586cf9": {
-   "score": 2,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
   "ab2c920a4fa955dd": {
    "score": 2,
    "breaking": false,
@@ -10515,6 +10501,20 @@
    "breaking": false,
    "category": "TEKNOLOJİ",
    "review": true,
+   "video": false
+  },
+  "b430e906f47aaab4": {
+   "score": 6,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "a4f217a1eab1c1a8": {
+   "score": 4,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
    "video": false
   }
  },
