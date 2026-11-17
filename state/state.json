@@ -18,58 +18,10 @@
   "19883de90401d09f",
   "46829a60c8cd815c",
   "4d42b6c3b5d4cca6",
-  "6e2eef9295a6d549"
+  "6e2eef9295a6d549",
+  "c86e1663cc1e26ae"
  ],
  "scores": {
-  "4fef57534f40b862": {
-   "score": 5,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": true
-  },
-  "3760778ad7019cda": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "b45a04ad5294c44b": {
-   "score": 4,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": true
-  },
-  "f1841147cfa8a7bf": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "eb4dc99d1bb6ecb0": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "c0ea078cfd774555": {
-   "score": 3,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "6608a9d9aca034e2": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "b29e31114546d697": {
    "score": 3,
    "breaking": false,
@@ -10520,6 +10472,55 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "6bf340f3fc535c6d": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "b44c373be33c71b6": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "8418a7532216412a": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "08a3c510ccc620db": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "ea71df78ab472dc0": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "3b8f343549d515da": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "47f683a30480760d": {
+   "score": 1,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10540,7 +10541,8 @@
   "2026-11-16-21",
   "2026-11-17-9",
   "2026-11-17-12",
-  "2026-11-17-reel-13"
+  "2026-11-17-reel-13",
+  "2026-11-17-15"
  ],
  "breaking": {},
  "log": [
@@ -10670,6 +10672,14 @@
    "media": "onay-bekliyor#5",
    "review": true,
    "cat": "SİYASET"
+  },
+  {
+   "t": "2026-11-17T15:01+03:00",
+   "fmt": "card",
+   "title": "Sözcü TV'ye kayyım atandı",
+   "media": "onay-bekliyor#6",
+   "review": true,
+   "cat": "GÜNDEM"
   }
  ],
  "quakes": [],
