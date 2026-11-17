@@ -22,55 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "9d38577b33b1b883": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "ec98b28a6e10b152": {
-   "score": 3,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": true
-  },
-  "16bd3d8eee2c0976": {
-   "score": 7,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "96311c3fe26d0483": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "331a0e13341134ca": {
-   "score": 3,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "a22b8379fa4127a9": {
-   "score": 4,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
-  "b3826e67fc02ada4": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "e28173c32e1f2ecf": {
    "score": 2,
    "breaking": false,
@@ -10519,6 +10470,55 @@
    "score": 2,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "a402bbd0a6d2ab18": {
+   "score": 8,
+   "breaking": true,
+   "category": "EKONOMİ",
+   "review": true,
+   "video": false
+  },
+  "02c9d66c7d1b3f35": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": true,
+   "video": false
+  },
+  "216ec9ee8984cbc0": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "28dca84ee0b7e890": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "c435fb944b9b9408": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "e3ec13767ad78eac": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "92e8001450a9d13a": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
    "review": false,
    "video": false
   }
