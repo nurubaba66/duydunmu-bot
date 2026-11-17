@@ -23,34 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "5659d43a815e3785": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "a58635a221ec314f": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "334697f9510cd215": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
-  "3517ff7bf168447c": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "5e797b7b0bc28626": {
    "score": 3,
    "breaking": false,
@@ -10522,6 +10494,34 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "362cc46ba980e5a8": {
+   "score": 7,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "fa5ea2a836d961f1": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "220a48fa18aba169": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "7ea64cc1cae6a661": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
