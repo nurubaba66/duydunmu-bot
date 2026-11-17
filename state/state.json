@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "7d41deb814dcb5f5": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "9d533871401285f5": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "2d95931dda07d034": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "80bea5accf659771": {
    "score": 3,
    "breaking": false,
@@ -10515,6 +10494,27 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": true,
+   "video": false
+  },
+  "d07b494db4bdf299": {
+   "score": 9,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "1ddb17a326ab8549": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "9c9ba38adec1e786": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
    "video": false
   }
  },
