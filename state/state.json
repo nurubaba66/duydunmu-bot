@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "c78878da31634e53": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "20af1aca94280dc4": {
    "score": 4,
    "breaking": false,
@@ -10524,6 +10517,13 @@
    "breaking": false,
    "category": "SİYASET",
    "review": true,
+   "video": false
+  },
+  "68c6e439ff164258": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
    "video": false
   }
  },
