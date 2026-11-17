@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "d922cac581985003": {
-   "score": 5,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "823ed2d60e71dc00": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "ba895d49453f748c": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10500,20 @@
    "score": 1,
    "breaking": false,
    "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "41104d2830393856": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "1336b7cf74dfd2bb": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
    "review": false,
    "video": false
   }
