@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "b0119147e823fccf": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
   "6a2c7e8dfed4bcee": {
    "score": 8,
    "breaking": false,
@@ -10516,6 +10509,13 @@
    "category": "TEKNOLOJİ",
    "review": true,
    "video": false
+  },
+  "6ebf16c3b4a25a35": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
