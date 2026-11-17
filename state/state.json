@@ -19,48 +19,6 @@
   "46829a60c8cd815c"
  ],
  "scores": {
-  "d429054adcfee54f": {
-   "score": 2,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "584156c23a25fa6a": {
-   "score": 6,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": true,
-   "video": true
-  },
-  "e6d7de08d914796d": {
-   "score": 8,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "28ef15a20f9cca74": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "1d758a6ecce44baa": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "2bdc81f4c7d21a25": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "4057897abb314f0a": {
    "score": 4,
    "breaking": false,
@@ -10516,6 +10474,48 @@
    "score": 4,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "4e759d587c8882f6": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "f7d489c4db79b736": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "1575351189b2b86e": {
+   "score": 4,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "e71f8aec80e27ce8": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "5e0e7292a4f74366": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "126e108eb5a5c87f": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
