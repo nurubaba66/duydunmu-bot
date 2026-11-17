@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "818d5e2ce86a50cd": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "64ebbde050815c3c": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10509,13 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "19822d091922ad55": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
