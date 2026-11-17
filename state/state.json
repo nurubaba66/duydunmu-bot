@@ -23,27 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "cf23a71720bf12e9": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "7a71b0b88ce0c371": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "3bc4416e23323903": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
   "2be07f9b6b5128a1": {
    "score": 3,
    "breaking": false,
@@ -10520,6 +10499,27 @@
    "score": 3,
    "breaking": false,
    "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "60167d4ee60d8d5a": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "85ac98c34dfd0c85": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "01d4f98a0ff09663": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
    "review": true,
    "video": false
   }
