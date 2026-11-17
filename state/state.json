@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "1fd55f751c904359": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
   "971360f933db305d": {
    "score": 6,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 2,
    "breaking": false,
    "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "daa6b67e767f3b7e": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
