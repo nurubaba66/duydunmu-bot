@@ -42,7 +42,7 @@ def card_html(d: dict, photo: bytes | None = None, credit: str = "") -> str:
   <div style="font-size:32px;font-weight:500;line-height:1.35">{e(d.get('summary'))}</div>
   <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center;border-top:4px solid {K};padding-top:18px">
    <div style="font-size:34px;font-weight:800">{e(d.get('question') or 'Sizce?')}</div>
-   <div style="font-size:23px;font-weight:500">Kaynak: {e(d.get('source'))}</div>
+   <div style="font-size:23px;font-weight:500">{('Kaynak: ' + e(d.get('source'))) if d.get('source') else ''}</div>
   </div>
  </div>
 </div></body></html>"""
