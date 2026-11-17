@@ -18,62 +18,6 @@
   "19883de90401d09f"
  ],
  "scores": {
-  "27e5d90dbd3144c9": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "2b3339bf5c260046": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "17d7123049a8405e": {
-   "score": 4,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": false
-  },
-  "0e5f606b0fe77a28": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "2a2ea35f34e713a7": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "415744b7c0e946d9": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "34bc1bd5c140e54e": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "2ab6c8e841edb6d6": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "f55cbe5d325324f7": {
    "score": 6,
    "breaking": false,
@@ -10515,6 +10459,62 @@
    "score": 2,
    "breaking": false,
    "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "cd2443fc0f4c50e6": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "a573f5d3a3fcc208": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "6a2e76a5ff512d1e": {
+   "score": 5,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "36d5e3c99e640814": {
+   "score": 5,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "a67e7a4d722bd0f4": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ca2c8dd37f8e496b": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "82cb3a49a5a6ab24": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "9afaea8006e34c4a": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
    "review": false,
    "video": false
   }
