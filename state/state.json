@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "09a81994eeba222e": {
-   "score": 3,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": true,
-   "video": false
-  },
-  "99ca038610f13e69": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": true
-  },
   "dd837fc28ef07488": {
    "score": 3,
    "breaking": false,
@@ -10525,6 +10511,20 @@
    "category": "SİYASET",
    "review": true,
    "video": true
+  },
+  "5062e75560efa074": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "bf65858d146149d1": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
