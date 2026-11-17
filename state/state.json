@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "77f23442b542bb4f": {
-   "score": 7,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": true,
-   "video": false
-  },
-  "ae272441f33de0d2": {
-   "score": 6,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
   "70e6dce10dd1b23f": {
    "score": 4,
    "breaking": false,
@@ -10524,6 +10510,20 @@
    "breaking": false,
    "category": "SPOR",
    "review": false,
+   "video": false
+  },
+  "5ed04e13cb099b69": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "9e34498a4924ba21": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
    "video": false
   }
  },
