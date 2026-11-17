@@ -20,13 +20,6 @@
   "4d42b6c3b5d4cca6"
  ],
  "scores": {
-  "adad991e6b11325a": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
   "ed21a79a3a7b1f6c": {
    "score": 1,
    "breaking": false,
@@ -10518,6 +10511,13 @@
    "breaking": false,
    "category": "TEKNOLOJİ",
    "review": false,
+   "video": false
+  },
+  "015d83fa75631277": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
    "video": false
   }
  },
