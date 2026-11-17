@@ -19,14 +19,20 @@ def _check(r: requests.Response) -> dict:
     return data
 
 
+_UID = {}
+
+
 def ig_user_id() -> str:
     if config.IG_USER_ID:
         return config.IG_USER_ID
+    if "id" in _UID:
+        return _UID["id"]
     tok = {"access_token": config.IG_ACCESS_TOKEN}
     # Instagram Login token'ı
     r = requests.get(_api("me"), params={**tok, "fields": "user_id,username"}, timeout=30).json()
     if r.get("user_id"):
-        return str(r["user_id"])
+        _UID["id"] = str(r["user_id"])
+        return _UID["id"]
     # Business/system-user token'ı: bağlı Instagram hesaplarını ara
     r = requests.get(_api("me/accounts"), params={**tok, "fields": "instagram_business_account"}, timeout=30).json()
     for acc in r.get("data", []):
@@ -98,14 +104,15 @@ def upload_public(path: Path) -> str:
 
 def _wait_ready(container_id: str, tries: int = 30):
     st = {}
-    for _ in range(tries):
+    time.sleep(4)  # hesap kotası düşük: az sorgu, uzun aralık
+    for _ in range(max(6, tries // 3)):
         st = _check(requests.get(_api(container_id), params={"fields": "status_code,status", "access_token": config.IG_ACCESS_TOKEN}, timeout=30))
         code = st.get("status_code")
         if code in ("FINISHED", "PUBLISHED"):
             return
         if code in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"Instagram medyayı işleyemedi: {st}")
-        time.sleep(5)
+        time.sleep(15)
     raise RuntimeError(f"Instagram işlemi zamanında bitmedi: {st}")
 
 
