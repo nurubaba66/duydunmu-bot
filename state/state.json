@@ -17,34 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "64ebbde050815c3c": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "da4e53db31fec876": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "e7178c95c44c3106": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "62fea528e667c6e9": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "b0b47de2899d2baf": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10488,34 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "5e99b6bc7ca58463": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "c91f76bfc0e3d233": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "870fdbd8632a8b46": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "9a861ce30405a832": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
