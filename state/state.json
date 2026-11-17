@@ -19,76 +19,6 @@
   "46829a60c8cd815c"
  ],
  "scores": {
-  "4057897abb314f0a": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "c5f2b71ca2696a0a": {
-   "score": 7,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "2554ae053362b820": {
-   "score": 6,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "53fdd1ec05e67058": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "bdf1f7e93789d6da": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "418e1630d8c1cf9f": {
-   "score": 3,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "297fdca566c5bc23": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": true
-  },
-  "5c218a75ede9a4e8": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "c41a65d85cd8bc6c": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": true,
-   "video": false
-  },
-  "f76a8c6f9a04e84e": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "49d091fb63f0d275": {
    "score": 3,
    "breaking": false,
@@ -10517,6 +10447,76 @@
    "breaking": false,
    "category": "GÜNDEM",
    "review": false,
+   "video": false
+  },
+  "f0aae62f859d4558": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "2c6362a9eba8c25c": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "7997d231dbbb00aa": {
+   "score": 3,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "fac3ff4396e1415f": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "a08c2e02ef68d7e7": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "e0ad55534c909eab": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "63f4356579922276": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "f580b8c0bcff2219": {
+   "score": 2,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "dba04dcb798a1297": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "efde3b1d6cc367b8": {
+   "score": 1,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
    "video": false
   }
  },
