@@ -16,65 +16,10 @@
   "a2d7e99ee38747b1",
   "4142331d1a1a8bfd",
   "19883de90401d09f",
-  "46829a60c8cd815c"
+  "46829a60c8cd815c",
+  "4d42b6c3b5d4cca6"
  ],
  "scores": {
-  "850190b3417be89b": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "252de4ad5a9812c0": {
-   "score": 3,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "4742b50a5e15b022": {
-   "score": 2,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "b8d115f259365e5f": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "6ef195f1aea41c25": {
-   "score": 5,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "229a99fab3163093": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "0c650f0aeb335584": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "ef2d51d818a67fb1": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
   "b95658a2ef7c5e09": {
    "score": 4,
    "breaking": false,
@@ -10518,6 +10463,62 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "cbc84ef77366bbd5": {
+   "score": 8,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "6f9961f8e4815dd7": {
+   "score": 8,
+   "breaking": true,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "628fc1391029be4c": {
+   "score": 7,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "9777a41c644fee73": {
+   "score": 5,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "5e3965331bf41180": {
+   "score": 4,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "42b38414a13cb641": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "ea09f29585fc0358": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "790eb0c06ff440cc": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10537,7 +10538,8 @@
   "2026-11-16-reel-20",
   "2026-11-16-21",
   "2026-11-17-9",
-  "2026-11-17-12"
+  "2026-11-17-12",
+  "2026-11-17-reel-13"
  ],
  "breaking": {},
  "log": [
