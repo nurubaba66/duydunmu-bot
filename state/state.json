@@ -18,34 +18,6 @@
   "19883de90401d09f"
  ],
  "scores": {
-  "5a66ef0a90e2ee11": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "f0713fd07c3fbe8a": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "57fa07c505fe0afc": {
-   "score": 1,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "b69ac667375a4681": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "27e5d90dbd3144c9": {
    "score": 6,
    "breaking": false,
@@ -10517,6 +10489,34 @@
    "category": "HAYAT",
    "review": false,
    "video": true
+  },
+  "2541aba6123ca586": {
+   "score": 6,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "e165e0ef460ac957": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "484043ec10f14b50": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "d5a59bccb9f3d02d": {
+   "score": 2,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
