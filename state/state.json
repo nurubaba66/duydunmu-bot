@@ -20,27 +20,6 @@
   "4d42b6c3b5d4cca6"
  ],
  "scores": {
-  "b95658a2ef7c5e09": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "6c5d168108685e02": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "5e1c90331cd10c97": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "81716138a28eda0f": {
    "score": 2,
    "breaking": false,
@@ -10517,6 +10496,27 @@
    "score": 2,
    "breaking": false,
    "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "1731be2331ee5e4b": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "17e74de87c40b304": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "5c8c224b2f11dc1b": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
