@@ -23,41 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "81f8031fea8cb0e8": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "7933f9db4e20a948": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "4718fe383d6b7557": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "033e72f5d2ac6b1d": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "368b6dedba8d9152": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "be1ea150c628d723": {
    "score": 5,
    "breaking": false,
@@ -10518,6 +10483,41 @@
   },
   "e11868e5ccf148f9": {
    "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "21d9087d43428d6d": {
+   "score": 8,
+   "breaking": true,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "098d420ce54710fa": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "ea2faed0545d19ff": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "01cef5d1e3041b2f": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a659964c93109acb": {
+   "score": 2,
    "breaking": false,
    "category": "DÜNYA",
    "review": false,
