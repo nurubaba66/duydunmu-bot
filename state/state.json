@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "8462bd2eb3f0ec68": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": true
-  },
   "689807db0f9d0eaf": {
    "score": 4,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 3,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "56f3335eb6deb637": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
