@@ -19,27 +19,6 @@
   "46829a60c8cd815c"
  ],
  "scores": {
-  "b3a11b64b40360a9": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "bcdb822cd2548521": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "2965a20437bb57b1": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
   "b8c9b24573eb2fe9": {
    "score": 1,
    "breaking": false,
@@ -10518,6 +10497,27 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": true
+  },
+  "d281d1cf69c1cb7b": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "ecdedd0ccbc9a35b": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "374cfb3fc6162b6c": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
