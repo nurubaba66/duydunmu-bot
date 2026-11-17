@@ -15,93 +15,10 @@
   "1a74751933c859a2",
   "a2d7e99ee38747b1",
   "4142331d1a1a8bfd",
-  "19883de90401d09f"
+  "19883de90401d09f",
+  "46829a60c8cd815c"
  ],
  "scores": {
-  "2c55d4df6bc77ada": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "b86ba83069a93289": {
-   "score": 7,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "08d86090dec13bdd": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "c07d0486be180b30": {
-   "score": 8,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": true,
-   "video": false
-  },
-  "42fb39d65cd2a1e9": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "21adf6e5ba729d1d": {
-   "score": 3,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
-  "41df148c8afdf202": {
-   "score": 4,
-   "breaking": false,
-   "category": "DEPREM",
-   "review": false,
-   "video": false
-  },
-  "5158f49e416363a4": {
-   "score": 8,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": false
-  },
-  "c13268cf44fae35b": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "173aba23c55b9dea": {
-   "score": 3,
-   "breaking": false,
-   "category": "DEPREM",
-   "review": false,
-   "video": false
-  },
-  "76d8d9363372ef46": {
-   "score": 7,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "abfe8f3a4fcec9e3": {
-   "score": 6,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "4026b5648bd3edb9": {
    "score": 6,
    "breaking": false,
@@ -10517,6 +10434,90 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "cbfdcf8edeb9d7f2": {
+   "score": 8,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "bc7523070a306a29": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "f2ef14ae6f12fa7e": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "c2361fa7621616c8": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": true
+  },
+  "9ec6b75948c3dbd1": {
+   "score": 4,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "fd37a74056b2454d": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "2ad4ede8eff9a16e": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "c45726d57820e937": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "d7025266e357d3cb": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "a4ab3bc55989c75e": {
+   "score": 2,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "b6ef48f589eb9831": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "dce55110382afe78": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10535,7 +10536,8 @@
   "2026-11-16-18",
   "2026-11-16-reel-20",
   "2026-11-16-21",
-  "2026-11-17-9"
+  "2026-11-17-9",
+  "2026-11-17-12"
  ],
  "breaking": {},
  "log": [
@@ -10657,6 +10659,14 @@
    "media": "onay-bekliyor#4",
    "review": true,
    "cat": "GÜNDEM"
+  },
+  {
+   "t": "2026-11-17T12:00+03:00",
+   "fmt": "carousel",
+   "title": "Bahçeli'den sosyal medya açıklaması. \"Gerekli adımları atmanın zamanı geldi\"",
+   "media": "onay-bekliyor#5",
+   "review": true,
+   "cat": "SİYASET"
   }
  ],
  "quakes": [],
