@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "ef5d66017dd204f2": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "135d4c1957303705": {
-   "score": 2,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "fd0177b3422460b4": {
-   "score": 2,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "b43ef49f34052d2e": {
    "score": 2,
    "breaking": false,
@@ -10514,6 +10493,27 @@
    "score": 4,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "0b9e01a9be6add2b": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "57a05a348d8a9f4e": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "7cbf78f5edc09f55": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
    "review": false,
    "video": false
   }
