@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "6a2c7e8dfed4bcee": {
-   "score": 8,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "9ccd1a7ccc83f3eb": {
    "score": 6,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 6,
    "breaking": false,
    "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "189da3a14fd7de4d": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": true
   }
