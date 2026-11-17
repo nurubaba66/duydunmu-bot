@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "7d73702a6347f8b9": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
   "07faa99956cf93bc": {
    "score": 2,
    "breaking": false,
@@ -10525,6 +10518,13 @@
    "category": "ULAŞIM",
    "review": false,
    "video": true
+  },
+  "2bab61a3d5acc70c": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
