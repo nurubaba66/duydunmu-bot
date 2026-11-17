@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "01f1a6d2b8e67815": {
-   "score": 6,
-   "breaking": false,
-   "category": "HAVA",
-   "review": false,
-   "video": false
-  },
-  "93b04593115ecc3c": {
-   "score": 5,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": true
-  },
   "c78878da31634e53": {
    "score": 4,
    "breaking": false,
@@ -10525,6 +10511,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "575c47b7507fecf4": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "885c180d9cc78c1a": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
