@@ -25,27 +25,6 @@
   "805a80158ee652c8"
  ],
  "scores": {
-  "efc27314c79630e3": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "f05f9dee474a25e3": {
-   "score": 4,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "10780bb520b8fb42": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "215efe6335bed355": {
    "score": 3,
    "breaking": false,
@@ -10523,6 +10502,27 @@
    "breaking": false,
    "category": "GÜNDEM",
    "review": true,
+   "video": false
+  },
+  "980c0b896bd6abcf": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "d4a14c942737e25c": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "f38abbf2f36b5b70": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
    "video": false
   }
  },
