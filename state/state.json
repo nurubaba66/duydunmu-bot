@@ -23,48 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "6d5c59ccc4dc2602": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "3943e6d28b7fd011": {
-   "score": 7,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "fd9d7fc42fc5bc81": {
-   "score": 6,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": true,
-   "video": false
-  },
-  "eda8183abf080cda": {
-   "score": 6,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "6b3278e25cd0ab51": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "4e3f68acd52bc4d3": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "129f7f4209745dc8": {
    "score": 3,
    "breaking": false,
@@ -10520,6 +10478,48 @@
    "score": 2,
    "breaking": false,
    "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "dd8b2f6e1bffe6af": {
+   "score": 8,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": true,
+   "video": true
+  },
+  "729886832ade7774": {
+   "score": 7,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "b8bcc3899d1e94e6": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "b8c942590e6d39b1": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "411440141712522c": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "68e9f64c78c1a256": {
+   "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
    "review": false,
    "video": false
   }
