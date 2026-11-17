@@ -19,23 +19,10 @@
   "46829a60c8cd815c",
   "4d42b6c3b5d4cca6",
   "6e2eef9295a6d549",
-  "c86e1663cc1e26ae"
+  "c86e1663cc1e26ae",
+  "d08e6102b5fc8caa"
  ],
  "scores": {
-  "9a6517a6cd845992": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "5f3b5b771d9f4251": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "cf23a71720bf12e9": {
    "score": 4,
    "breaking": false,
@@ -10521,6 +10508,20 @@
    "category": "DÜNYA",
    "review": false,
    "video": false
+  },
+  "ce6384adab12dce4": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "efe20063a8b12c63": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
@@ -10542,7 +10543,8 @@
   "2026-11-17-9",
   "2026-11-17-12",
   "2026-11-17-reel-13",
-  "2026-11-17-15"
+  "2026-11-17-15",
+  "2026-11-17-18"
  ],
  "breaking": {},
  "log": [
