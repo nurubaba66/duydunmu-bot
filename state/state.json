@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "227a3b1e472fb7ee": {
-   "score": 2,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "ff277a5607642b14": {
    "score": 7,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 4,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "facfc88c48616026": {
+   "score": 4,
+   "breaking": false,
+   "category": "İLGİNÇ",
    "review": false,
    "video": false
   }
