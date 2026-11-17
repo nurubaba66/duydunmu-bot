@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "02684ee4dcdcfaf0": {
-   "score": 6,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
   "6d4bd9ce7c156a19": {
    "score": 5,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 1,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "c383870d64929344": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
