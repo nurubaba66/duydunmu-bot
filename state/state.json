@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "aeb3a04b0717b8d6": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "57b0b62b39f8e760": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "77f23442b542bb4f": {
    "score": 7,
    "breaking": false,
@@ -10524,6 +10510,20 @@
    "breaking": false,
    "category": "SİYASET",
    "review": true,
+   "video": false
+  },
+  "e2d1acbfbb6d4453": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "955bba24812b43ed": {
+   "score": 4,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
    "video": false
   }
  },
