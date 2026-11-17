@@ -22,34 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "d5d0e9741119628b": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "81c61a2946f5b5e3": {
-   "score": 3,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "79a26ff86c21803d": {
-   "score": 2,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": false
-  },
-  "037e00b2db5eb919": {
-   "score": 5,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
   "1fbd032aa05b8b79": {
    "score": 5,
    "breaking": false,
@@ -10520,6 +10492,34 @@
    "breaking": false,
    "category": "SİYASET",
    "review": true,
+   "video": false
+  },
+  "c01b405a8b7a22a8": {
+   "score": 9,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "35e5d98ed8f5eca9": {
+   "score": 5,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "db64308b5767f2c4": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "3f9bc9e3654ea7ef": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
    "video": false
   }
  },
