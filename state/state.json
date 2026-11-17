@@ -17,27 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "ddaf04bd9ab2ba88": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "8c7ea616d0ec17fb": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "2250b9d3e34ac601": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "818d5e2ce86a50cd": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10495,27 @@
    "category": "EKONOMİ",
    "review": false,
    "video": false
+  },
+  "476080211fbf4f9c": {
+   "score": 9,
+   "breaking": true,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "ab379def6f3473a0": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "ad6df03909b23d45": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
