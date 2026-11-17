@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "7000ebe3fad2b368": {
-   "score": 1,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "291405a8b8bcde3e": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "cdb02b61a91740fa": {
    "score": 4,
    "breaking": false,
@@ -10524,6 +10510,20 @@
    "breaking": false,
    "category": "SAĞLIK",
    "review": false,
+   "video": false
+  },
+  "e6c0eb289993efd3": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "fbde9afd2023a316": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
