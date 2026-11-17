@@ -21,20 +21,6 @@
   "6e2eef9295a6d549"
  ],
  "scores": {
-  "6c8917dbc2b07ca8": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
-  "ea9c6fef2ccd3018": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": true,
-   "video": false
-  },
   "c25c98af6c829326": {
    "score": 1,
    "breaking": false,
@@ -10516,6 +10502,20 @@
   },
   "4278091cf1b57007": {
    "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "00fe58bf32796544": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "3df7245b18230202": {
+   "score": 3,
    "breaking": false,
    "category": "HAYAT",
    "review": false,
