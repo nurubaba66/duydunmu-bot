@@ -25,20 +25,6 @@
   "805a80158ee652c8"
  ],
  "scores": {
-  "7e8fa9c34976e0d0": {
-   "score": 5,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": true
-  },
-  "a769e0b90e358109": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": false,
-   "video": false
-  },
   "36ea56c87b2e6a93": {
    "score": 3,
    "breaking": false,
@@ -10523,6 +10509,20 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": false,
+   "video": false
+  },
+  "68be2ebfcab13a8b": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "d4035bb06c284497": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
