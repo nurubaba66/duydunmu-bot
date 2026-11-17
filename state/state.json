@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "b43ef49f34052d2e": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "403fa05e406a33a1": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10509,13 @@
    "category": "HAVA",
    "review": false,
    "video": false
+  },
+  "4a4ad9459e221916": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
