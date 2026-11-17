@@ -18,20 +18,6 @@
   "19883de90401d09f"
  ],
  "scores": {
-  "5a49ffdbe0e7810e": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": true
-  },
-  "d3867cc8e9050549": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "94178d69f04f3fb0": {
    "score": 4,
    "breaking": false,
@@ -10516,6 +10502,20 @@
    "breaking": false,
    "category": "HAYAT",
    "review": false,
+   "video": false
+  },
+  "62c321cde672e715": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "5f807a07df6b729b": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
