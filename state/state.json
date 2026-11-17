@@ -21,16 +21,10 @@
   "6e2eef9295a6d549",
   "c86e1663cc1e26ae",
   "d08e6102b5fc8caa",
-  "8cb6fe7f3158ccc8"
+  "8cb6fe7f3158ccc8",
+  "805a80158ee652c8"
  ],
  "scores": {
-  "f473c37c8a6344b5": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "2df5ea8b85d3ebdc": {
    "score": 1,
    "breaking": false,
@@ -10523,6 +10517,13 @@
    "category": "GÜNDEM",
    "review": false,
    "video": false
+  },
+  "94294fb54fd0d2d4": {
+   "score": 3,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10545,7 +10546,8 @@
   "2026-11-17-12",
   "2026-11-17-reel-13",
   "2026-11-17-15",
-  "2026-11-17-18"
+  "2026-11-17-18",
+  "2026-11-17-reel-20"
  ],
  "breaking": {},
  "log": [
