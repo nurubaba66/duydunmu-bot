@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "70379487f9e40700": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "1fbcbd3662792224": {
    "score": 5,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 1,
    "breaking": false,
    "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "88fd8620791e20b9": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
    "review": false,
    "video": false
   }
