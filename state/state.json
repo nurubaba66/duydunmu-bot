@@ -17,13 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "6ebb18bf6d60699d": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": true
-  },
   "937c782bb233fccb": {
    "score": 5,
    "breaking": false,
@@ -10514,6 +10507,13 @@
    "score": 5,
    "breaking": false,
    "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "63c576c70e69e1d1": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
    "review": false,
    "video": false
   }
