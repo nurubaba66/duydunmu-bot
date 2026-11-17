@@ -26,27 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "08df085a851f9fe5": {
-   "score": 1,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "6c431b68922b5762": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
-  "e41623ea73892702": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "d27ff961e7c0628e": {
    "score": 1,
    "breaking": false,
@@ -10523,6 +10502,27 @@
    "score": 4,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ae7fa0081113dc03": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "e6c7e79c10e410d1": {
+   "score": 4,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "61a89fe742963cff": {
+   "score": 1,
+   "breaking": false,
+   "category": "ASAYİŞ",
    "review": false,
    "video": false
   }
