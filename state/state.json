@@ -22,27 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "1d9dc09c142918dc": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "5a3710462fc2d29c": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
-  "491bd8b28eadc323": {
-   "score": 7,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "544edf7963d1edf1": {
    "score": 4,
    "breaking": false,
@@ -10519,6 +10498,27 @@
    "score": 1,
    "breaking": false,
    "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "99b527c2d14c991a": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "d78d4b6a0839fcd9": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "7534744661217545": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
    "review": false,
    "video": false
   }
