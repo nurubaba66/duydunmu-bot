@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "ba895d49453f748c": {
-   "score": 2,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "f2fafd5b2683377c": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "f43692278837a411": {
    "score": 3,
    "breaking": false,
@@ -10515,6 +10501,20 @@
    "breaking": false,
    "category": "HAVA",
    "review": false,
+   "video": false
+  },
+  "644903f16b11005c": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "ee37a0e8d64b41c5": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
    "video": false
   }
  },
