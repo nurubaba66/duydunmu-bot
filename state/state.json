@@ -23,20 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "d6760dbf7bf5762f": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": true
-  },
-  "7cbc9b32c250abcd": {
-   "score": 2,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "43d82aad8834fd29": {
    "score": 2,
    "breaking": false,
@@ -10520,6 +10506,20 @@
    "score": 1,
    "breaking": false,
    "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "6262ea2eda24ea03": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "000ee0e08f1621cf": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
