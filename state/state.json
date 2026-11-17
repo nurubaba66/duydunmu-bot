@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "1fbcbd3662792224": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
   "6cfb77faad6c6d89": {
    "score": 3,
    "breaking": false,
@@ -10521,6 +10514,13 @@
   },
   "88fd8620791e20b9": {
    "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "e88e47147ea6a010": {
+   "score": 5,
    "breaking": false,
    "category": "TEKNOLOJİ",
    "review": false,
