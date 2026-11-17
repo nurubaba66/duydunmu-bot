@@ -23,55 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "bc26f36d063475bd": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "a4954775fe31bb3e": {
-   "score": 2,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "e310409d684f2960": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "2ccf688129cc1966": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "b683ee3ade3c3b5a": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "f080f9e28d9fd698": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "c6c3800c47510d03": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "1b983a30f3570505": {
    "score": 3,
    "breaking": false,
@@ -10520,6 +10471,55 @@
    "score": 1,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "6264d6d1c560a0b7": {
+   "score": 8,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "13815b3cdc9b72ed": {
+   "score": 6,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": true
+  },
+  "493fff894f5a1c24": {
+   "score": 6,
+   "breaking": true,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "064d75acf564f684": {
+   "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "143f2b5481c73f1e": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "c58bb8842a1fe240": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a761c218cf4ba5e6": {
+   "score": 2,
+   "breaking": false,
+   "category": "DEPREM",
    "review": false,
    "video": false
   }
