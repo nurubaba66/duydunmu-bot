@@ -22,20 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "14e3dd6316fc85e5": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "3ee0cbfc0ffeada0": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "a5e9bb9ad3160b03": {
    "score": 2,
    "breaking": false,
@@ -10520,6 +10506,20 @@
    "breaking": false,
    "category": "TEKNOLOJİ",
    "review": false,
+   "video": false
+  },
+  "38098f34186f3e8a": {
+   "score": 9,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "7e76354e3b6b4c4c": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
