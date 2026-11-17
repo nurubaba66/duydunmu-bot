@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "597490e053771aa3": {
-   "score": 1,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "cad8c49c61686738": {
    "score": 1,
    "breaking": false,
@@ -10521,6 +10514,13 @@
   },
   "20192418d734d077": {
    "score": 3,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "f34b94a17adc205e": {
+   "score": 6,
    "breaking": false,
    "category": "GÜNDEM",
    "review": false,
