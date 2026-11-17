@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "80bea5accf659771": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "ef57eb036dd24367": {
-   "score": 4,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "b0f820b66c484fc2": {
    "score": 3,
    "breaking": false,
@@ -10514,6 +10500,20 @@
    "score": 3,
    "breaking": false,
    "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "0ceadfa760d0dfda": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "6a64273860d4d854": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
    "review": false,
    "video": false
   }
