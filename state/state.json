@@ -20,62 +20,6 @@
   "4d42b6c3b5d4cca6"
  ],
  "scores": {
-  "421e82d7baa8686d": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "c3c0f5e4c5f59a55": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "11868bae29299aad": {
-   "score": 5,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": false
-  },
-  "b5211b60f052eb9a": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "ff9dcc20a1a8c15b": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "0f29beeff4fdfbc3": {
-   "score": 2,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "dec3aa1df5affd59": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "5c275745c4394f33": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
   "ba12f4552513dc3a": {
    "score": 4,
    "breaking": false,
@@ -10517,6 +10461,62 @@
    "score": 1,
    "breaking": false,
    "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "1660438b699854c0": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "0f21dab1a74f3bbf": {
+   "score": 3,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "e7a9784c684e07e8": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "5560f8c89e576e34": {
+   "score": 2,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "167abda1939f0471": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "f05a94dc560938af": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "7f8e38dba1c23f70": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "6cbae78657d6d8fd": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": true,
    "video": false
   }
