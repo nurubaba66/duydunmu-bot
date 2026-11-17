@@ -25,34 +25,6 @@
   "805a80158ee652c8"
  ],
  "scores": {
-  "490915b4dfb4bb08": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "3f3e1a8955f6b9e6": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "3c2c6d1d11756df5": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "eb08682f62e117b4": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "a6b447f89377d740": {
    "score": 4,
    "breaking": false,
@@ -10522,6 +10494,34 @@
    "score": 2,
    "breaking": false,
    "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "68af682443095f4b": {
+   "score": 9,
+   "breaking": true,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "1328c4900f60120d": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "2a66c396caf006a4": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "05ff437ee97a90a9": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
