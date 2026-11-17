@@ -18,13 +18,6 @@
   "19883de90401d09f"
  ],
  "scores": {
-  "dc9ff385c0e96c3d": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
   "feb76fa2730f4916": {
    "score": 1,
    "breaking": false,
@@ -10517,6 +10510,13 @@
    "category": "TEKNOLOJİ",
    "review": false,
    "video": false
+  },
+  "c3991b63cf29b268": {
+   "score": 7,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
