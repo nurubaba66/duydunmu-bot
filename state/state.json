@@ -23,34 +23,6 @@
   "d08e6102b5fc8caa"
  ],
  "scores": {
-  "a284f127430df1ff": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "c186103f52faa5a4": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": true,
-   "video": false
-  },
-  "0eb526ecc25e16d7": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": true
-  },
-  "a21ae23eba8fb38f": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "524811576cdb36eb": {
    "score": 1,
    "breaking": false,
@@ -10520,6 +10492,34 @@
    "score": 3,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "50f95f134936697f": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "c476e872a1a4f9f8": {
+   "score": 6,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "633863f682409634": {
+   "score": 5,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": true
+  },
+  "c73ef7fff4def59f": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
    "review": false,
    "video": false
   }
