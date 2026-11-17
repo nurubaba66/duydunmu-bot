@@ -19,62 +19,6 @@
   "46829a60c8cd815c"
  ],
  "scores": {
-  "c0c15acc4ba5e04c": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "2d5039f19b517f7e": {
-   "score": 3,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": false
-  },
-  "dea6ce716c1f4d4b": {
-   "score": 2,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": true,
-   "video": false
-  },
-  "2078c267624acaf4": {
-   "score": 1,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "8c37192421e905e1": {
-   "score": 1,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "69c07cecc0bda7f7": {
-   "score": 7,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "f8da079fefea4684": {
-   "score": 6,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "7435ca1cbd8624f8": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
   "b3a11b64b40360a9": {
    "score": 5,
    "breaking": false,
@@ -10518,6 +10462,62 @@
    "category": "SİYASET",
    "review": true,
    "video": false
+  },
+  "88dd5c62cc8c3bba": {
+   "score": 7,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "fea088c22bb8046a": {
+   "score": 6,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "2abdd144ff12a32f": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "fbab46ee330da343": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": true
+  },
+  "19f4118b7e85a842": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "43b5eaf3154d69a3": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "5bb39a329755963b": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "714ba5b8062e6ac5": {
+   "score": 2,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
