@@ -22,55 +22,6 @@
   "c86e1663cc1e26ae"
  ],
  "scores": {
-  "4e485389556a9cae": {
-   "score": 6,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "cd681faed67de835": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "0f78be18d0724a27": {
-   "score": 8,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "f2b53839341fdb88": {
-   "score": 6,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "a8b31155fd2f8e04": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": false
-  },
-  "614b43d206158499": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "5cde9b6e66685678": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "d5d0e9741119628b": {
    "score": 3,
    "breaking": false,
@@ -10520,6 +10471,55 @@
    "breaking": false,
    "category": "HAYAT",
    "review": false,
+   "video": false
+  },
+  "63721a27b53854ec": {
+   "score": 9,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "96358d014c166f27": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "f788e54365a20905": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "cb72f2bf0dd91718": {
+   "score": 5,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "b241338f64c343da": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "ddbc984521781ce9": {
+   "score": 1,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "6c68c31b7b689e70": {
+   "score": 1,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": false
   }
  },
