@@ -26,34 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "dd837fc28ef07488": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "947e26add61496c2": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "a8d238fdcafbdb21": {
-   "score": 7,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "e497798ce4aa4c91": {
-   "score": 6,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "cd47ad83f02f7aa7": {
    "score": 6,
    "breaking": false,
@@ -10524,6 +10496,34 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": true,
+   "video": false
+  },
+  "0048c418587afe99": {
+   "score": 6,
+   "breaking": false,
+   "category": "HAYAT",
+   "review": false,
+   "video": true
+  },
+  "999e02583c7a14d2": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "2ce5739fc560990b": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
+   "review": false,
+   "video": false
+  },
+  "6eb7a20be2a2d085": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
    "video": false
   }
  },
