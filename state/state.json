@@ -14,37 +14,10 @@
   "fbb3b25b9785cdd0",
   "1a74751933c859a2",
   "a2d7e99ee38747b1",
-  "4142331d1a1a8bfd"
+  "4142331d1a1a8bfd",
+  "19883de90401d09f"
  ],
  "scores": {
-  "d627c543f61bbea5": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "3c853a10775f9f06": {
-   "score": 4,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "5ee9b5740a27aee9": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "eb0993969051b7b4": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "dc9ff385c0e96c3d": {
    "score": 2,
    "breaking": false,
@@ -10516,6 +10489,34 @@
    "category": "ASAYİŞ",
    "review": true,
    "video": false
+  },
+  "19883de90401d09f": {
+   "score": 9,
+   "breaking": true,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "66d4bf91cf8c6396": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "fcc6cdac7c42de01": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "6b2c876ff9002a5c": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10533,7 +10534,8 @@
   "2026-11-16-15",
   "2026-11-16-18",
   "2026-11-16-reel-20",
-  "2026-11-16-21"
+  "2026-11-16-21",
+  "2026-11-17-9"
  ],
  "breaking": {},
  "log": [
@@ -10647,6 +10649,14 @@
    "media": "onay-bekliyor#3",
    "review": true,
    "cat": "EKONOMİ"
+  },
+  {
+   "t": "2026-11-17T09:00+03:00",
+   "fmt": "card",
+   "title": "Sözcü TV ve Sözcü gazetesine kayyım! İsmail Küçükkaya'dan kanal önünde ilk paylaşım: 'Günaydın Türkiyem' diyemiyorum...",
+   "media": "onay-bekliyor#4",
+   "review": true,
+   "cat": "GÜNDEM"
   }
  ],
  "quakes": [],
