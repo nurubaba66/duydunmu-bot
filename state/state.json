@@ -17,20 +17,6 @@
   "4142331d1a1a8bfd"
  ],
  "scores": {
-  "9ccd1a7ccc83f3eb": {
-   "score": 6,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "cd49375b7a170309": {
-   "score": 5,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
   "0c5ef78e4e5a9839": {
    "score": 3,
    "breaking": false,
@@ -10516,6 +10502,20 @@
    "category": "GÜNDEM",
    "review": false,
    "video": true
+  },
+  "4adee2c42be814b9": {
+   "score": 9,
+   "breaking": true,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": true
+  },
+  "53741395c17500f1": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
