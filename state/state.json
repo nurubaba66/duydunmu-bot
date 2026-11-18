@@ -26,34 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "7b1ed747eb4197b1": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "c8f9242bc727cd18": {
-   "score": 3,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "4f321d0bf7857116": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
-  "dfd4cdba4610b427": {
-   "score": 6,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "e3221d15ab27c73c": {
    "score": 4,
    "breaking": false,
@@ -10523,6 +10495,34 @@
    "score": 8,
    "breaking": false,
    "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "a96f607d2f7baf66": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "9286059d73368af7": {
+   "score": 7,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "1c9013ea84eb5bb5": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "fca19c40c88ba40f": {
+   "score": 2,
+   "breaking": false,
+   "category": "HAVA",
    "review": false,
    "video": false
   }
