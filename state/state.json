@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "082390a31c6d774a": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "d8dcb320032a568f": {
-   "score": 7,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "f8f14da73d89fb23": {
    "score": 5,
    "breaking": false,
@@ -10525,6 +10511,20 @@
    "category": "ASAYİŞ",
    "review": false,
    "video": true
+  },
+  "bc831e2d9dbe8c2a": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "3f2c5711e827b8ac": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
   }
  },
  "slots_done": [
