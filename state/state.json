@@ -26,41 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "d2a4727d9bbc9ee3": {
-   "score": 3,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": false,
-   "video": false
-  },
-  "2432dcb6e068e0cb": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "b6e74a9345163c8d": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "bcdb4b7b079d94b5": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": true
-  },
-  "9c3c428460a8c6eb": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "36f17af636c05c65": {
    "score": 5,
    "breaking": false,
@@ -10523,6 +10488,41 @@
    "score": 1,
    "breaking": false,
    "category": "HAYAT",
+   "review": false,
+   "video": false
+  },
+  "b07f8d51784890d5": {
+   "score": 8,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "d2a5d633566ffd55": {
+   "score": 6,
+   "breaking": false,
+   "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "75e684bed83f40fd": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "95d7910562ceb864": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "9b665cd2629b1f8b": {
+   "score": 1,
+   "breaking": false,
+   "category": "SPOR",
    "review": false,
    "video": false
   }
