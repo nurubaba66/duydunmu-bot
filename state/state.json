@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "4142331d1a1a8bfd": {
-   "score": 8,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "2e4e267676192810": {
    "score": 1,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 6,
    "breaking": false,
    "category": "ULAŞIM",
+   "review": false,
+   "video": false
+  },
+  "61c2d00cc3ce04de": {
+   "score": 6,
+   "breaking": false,
+   "category": "DEPREM",
    "review": false,
    "video": false
   }
