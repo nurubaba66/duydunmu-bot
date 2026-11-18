@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "52fed2eba90b22c9": {
-   "score": 3,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": true
-  },
   "ac3cade717dc550c": {
    "score": 6,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 7,
    "breaking": true,
    "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "4f8a9e36822a479f": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
    "review": false,
    "video": true
   }
