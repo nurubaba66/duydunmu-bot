@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "2e4e267676192810": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": true
-  },
-  "6fe3de257050575a": {
-   "score": 7,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
   "680c972f0990f0de": {
    "score": 5,
    "breaking": false,
@@ -10523,6 +10509,20 @@
    "score": 6,
    "breaking": false,
    "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "ee3b6daf61208413": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "b36ab28038757300": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
    "review": false,
    "video": false
   }
