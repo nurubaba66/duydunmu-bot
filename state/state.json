@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "c52912e8ba2e9941": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "3394e562827cf726": {
    "score": 5,
    "breaking": false,
@@ -10525,6 +10518,13 @@
    "category": "DÜNYA",
    "review": true,
    "video": true
+  },
+  "819bcfbfd61a0302": {
+   "score": 4,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
