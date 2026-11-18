@@ -26,62 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "14dad32191157247": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "b8d31ca27104a198": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "23290abfe4e81ab5": {
-   "score": 5,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "6dec8f7a2ba9fa2b": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "99f6d2f611daf491": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "df16bf28d4fd1de9": {
-   "score": 4,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "8aec0ce5d2975e28": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "d83d91ab742c481d": {
-   "score": 5,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "2c1aca97ba6c8a7b": {
    "score": 4,
    "breaking": false,
@@ -10523,6 +10467,62 @@
    "score": 3,
    "breaking": false,
    "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "936400cb25426e2f": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "9bbdeb080da9a31e": {
+   "score": 6,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": false,
+   "video": false
+  },
+  "dc1fe352bbffa292": {
+   "score": 6,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "c714a05cc8d3ec87": {
+   "score": 5,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "ed2e0d4cdd1d59df": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "94005156cb7261a5": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "d591bc37f1e00ce1": {
+   "score": 3,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "6ad178c3cad6c2ae": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
    "review": false,
    "video": false
   }
