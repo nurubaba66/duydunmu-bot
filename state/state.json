@@ -30,58 +30,10 @@
   "b4f813147339729d",
   "a49baa85483c22a3",
   "47bc4b2d12eff3e3",
-  "bed7c9b93a80dc5d"
+  "bed7c9b93a80dc5d",
+  "903afd214dc7eb65"
  ],
  "scores": {
-  "e144534b39c3ae71": {
-   "score": 5,
-   "breaking": false,
-   "category": "ULAŞIM",
-   "review": false,
-   "video": true
-  },
-  "b9f727eb6ad65a6c": {
-   "score": 5,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "bdcadc8b659de323": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "ab88cc1ab51eb55b": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "a49d639aa3fba8dd": {
-   "score": 3,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": false
-  },
-  "c8826ca320bed358": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "283cfb05d5588043": {
-   "score": 2,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
   "893257831c065b2e": {
    "score": 2,
    "breaking": false,
@@ -10532,6 +10484,55 @@
    "category": "EKONOMİ",
    "review": false,
    "video": false
+  },
+  "db23c5834b9887b9": {
+   "score": 7,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "fde9014813bffd8c": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
+   "video": false
+  },
+  "aa64a3f7c0fc9430": {
+   "score": 6,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": true
+  },
+  "ca4faee9dde8505c": {
+   "score": 5,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "449c6ffa852b40a8": {
+   "score": 4,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
+   "video": false
+  },
+  "f5baaee1a944a5a8": {
+   "score": 2,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "99ea30a3f3682e7c": {
+   "score": 2,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
@@ -10558,7 +10559,8 @@
   "2026-11-17-reel-20",
   "2026-11-17-21",
   "2026-11-18-9",
-  "2026-11-18-12"
+  "2026-11-18-12",
+  "2026-11-18-reel-13"
  ],
  "breaking": {},
  "log": [
