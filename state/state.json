@@ -27,13 +27,6 @@
   "a2d468b2179ce41a"
  ],
  "scores": {
-  "450fd88408401106": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "0a2695338148b825": {
    "score": 1,
    "breaking": false,
@@ -10522,6 +10515,13 @@
   },
   "bb3c1e588eb929b5": {
    "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "96ec51f1ed626634": {
+   "score": 2,
    "breaking": false,
    "category": "DÜNYA",
    "review": false,
