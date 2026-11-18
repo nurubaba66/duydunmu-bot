@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "ac3cade717dc550c": {
-   "score": 6,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "09ea79d5b7683505": {
    "score": 3,
    "breaking": false,
@@ -10524,6 +10517,13 @@
    "breaking": false,
    "category": "ASAYİŞ",
    "review": false,
+   "video": true
+  },
+  "56f2797f950d0a6c": {
+   "score": 3,
+   "breaking": false,
+   "category": "SİYASET",
+   "review": true,
    "video": true
   }
  },
