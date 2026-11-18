@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "a79aebd95e0aab0f": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
   "b800234d790f49ea": {
    "score": 3,
    "breaking": false,
@@ -10524,6 +10517,13 @@
    "breaking": false,
    "category": "İLGİNÇ",
    "review": false,
+   "video": false
+  },
+  "1f980c339753de4c": {
+   "score": 1,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": true,
    "video": false
   }
  },
