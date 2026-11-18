@@ -31,55 +31,6 @@
   "a49baa85483c22a3"
  ],
  "scores": {
-  "9783eec8e993f8d1": {
-   "score": 1,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "aab5dd96d73e0afa": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "ab5693235610da89": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "6d66421be47fb9fe": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "f93f7610262a1228": {
-   "score": 1,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "2cf8aab1246edbf8": {
-   "score": 1,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
-  "6b579cbf48b7bde2": {
-   "score": 1,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "24f8843966eb8a4a": {
    "score": 1,
    "breaking": false,
@@ -10530,6 +10481,55 @@
    "category": "DÜNYA",
    "review": true,
    "video": true
+  },
+  "b66d5354fa67e578": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "bb9fa38d718c3264": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "310540753635319f": {
+   "score": 7,
+   "breaking": true,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "2edac83d89bfb761": {
+   "score": 6,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "47c5246d806fcdf9": {
+   "score": 5,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "0fad940483ac504a": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "52914e4a16dcaa0e": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
