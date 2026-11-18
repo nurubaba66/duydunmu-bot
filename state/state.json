@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "f0bdb232584167dd": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
   "7b1ed747eb4197b1": {
    "score": 3,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 1,
    "breaking": false,
    "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "9868707ad4b33be1": {
+   "score": 8,
+   "breaking": false,
+   "category": "GÜNDEM",
    "review": false,
    "video": false
   }
