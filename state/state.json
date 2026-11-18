@@ -32,62 +32,6 @@
   "47bc4b2d12eff3e3"
  ],
  "scores": {
-  "9afaea8006e34c4a": {
-   "score": 1,
-   "breaking": false,
-   "category": "MAGAZİN",
-   "review": false,
-   "video": false
-  },
-  "6a2d24055c308394": {
-   "score": 7,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "73c8492b4eb7e9e1": {
-   "score": 6,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": false,
-   "video": true
-  },
-  "95a4711e2be6e9f7": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "ad1c9b6eac5e7884": {
-   "score": 3,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "a358b3d01af938a9": {
-   "score": 3,
-   "breaking": false,
-   "category": "SAĞLIK",
-   "review": false,
-   "video": false
-  },
-  "5fa7a5dfa63603c9": {
-   "score": 1,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "5f42accb6c626ceb": {
-   "score": 8,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": false,
-   "video": false
-  },
   "b618270c32833787": {
    "score": 7,
    "breaking": false,
@@ -10529,6 +10473,62 @@
    "score": 1,
    "breaking": false,
    "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "4dc5517ea426431b": {
+   "score": 7,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "ad41247de34d67a6": {
+   "score": 6,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": true,
+   "video": false
+  },
+  "05294a48c19ef95f": {
+   "score": 4,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
+  },
+  "0e856ae8d4adfad2": {
+   "score": 4,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "db5d8c179959975b": {
+   "score": 3,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "463c21e469fc7b55": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "867ab73036fdb1c6": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
+   "video": false
+  },
+  "a069e970b288b517": {
+   "score": 1,
+   "breaking": false,
+   "category": "DÜNYA",
    "review": false,
    "video": false
   }
