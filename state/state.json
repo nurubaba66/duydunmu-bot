@@ -26,20 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "5507b06409b0868e": {
-   "score": 5,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": false,
-   "video": false
-  },
-  "74d2a2e5de500c9b": {
-   "score": 4,
-   "breaking": false,
-   "category": "SİYASET",
-   "review": true,
-   "video": false
-  },
   "f0bdb232584167dd": {
    "score": 3,
    "breaking": false,
@@ -10524,6 +10510,20 @@
    "breaking": false,
    "category": "DÜNYA",
    "review": true,
+   "video": false
+  },
+  "09d149066eca5cd3": {
+   "score": 4,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "ee6abd12eacce9f0": {
+   "score": 1,
+   "breaking": false,
+   "category": "MAGAZİN",
+   "review": false,
    "video": false
   }
  },
