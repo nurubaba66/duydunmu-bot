@@ -31,34 +31,6 @@
   "a49baa85483c22a3"
  ],
  "scores": {
-  "a9959e513064617a": {
-   "score": 9,
-   "breaking": true,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": true
-  },
-  "225ea7fca5ec5aab": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "98c8219b578663cc": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "5168428288fa710e": {
-   "score": 6,
-   "breaking": false,
-   "category": "HAYAT",
-   "review": true,
-   "video": false
-  },
   "42677f23486f01bc": {
    "score": 5,
    "breaking": false,
@@ -10529,6 +10501,34 @@
    "breaking": false,
    "category": "GÜNDEM",
    "review": false,
+   "video": false
+  },
+  "9a1fac5bca8d6ce7": {
+   "score": 5,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "0e17ee82d062f015": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": false,
+   "video": false
+  },
+  "964476fcfe791785": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "d7262f5193ecf31a": {
+   "score": 4,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": true,
    "video": false
   }
  },
