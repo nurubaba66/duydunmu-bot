@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "8f3b0ea7dc779b6a": {
-   "score": 4,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "507b56ba841d056e": {
    "score": 1,
    "breaking": false,
@@ -10525,6 +10518,13 @@
    "category": "DÜNYA",
    "review": false,
    "video": true
+  },
+  "e0ed8ceafc0a3794": {
+   "score": 2,
+   "breaking": false,
+   "category": "GÜNDEM",
+   "review": false,
+   "video": false
   }
  },
  "slots_done": [
