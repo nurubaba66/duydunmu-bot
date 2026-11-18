@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "d9c7dd81cd43db79": {
-   "score": 6,
-   "breaking": false,
-   "category": "İLGİNÇ",
-   "review": false,
-   "video": true
-  },
   "9cfa0942877ad075": {
    "score": 5,
    "breaking": false,
@@ -10525,6 +10518,13 @@
    "category": "HAYAT",
    "review": false,
    "video": false
+  },
+  "7587759ea7cacb43": {
+   "score": 6,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
   }
  },
  "slots_done": [
