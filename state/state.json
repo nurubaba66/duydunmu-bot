@@ -31,55 +31,6 @@
   "a49baa85483c22a3"
  ],
  "scores": {
-  "2d388583eddbdb75": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "812f71cd61e9d706": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "ed6e992d23361cc2": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "9284dcb96468c178": {
-   "score": 3,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "c22fb025e4b5efdd": {
-   "score": 3,
-   "breaking": false,
-   "category": "EKONOMİ",
-   "review": false,
-   "video": false
-  },
-  "41a57aac41647414": {
-   "score": 2,
-   "breaking": false,
-   "category": "ASAYİŞ",
-   "review": true,
-   "video": false
-  },
-  "49e630066eec6ea1": {
-   "score": 2,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": false,
-   "video": false
-  },
   "a5ebef3702db1d31": {
    "score": 2,
    "breaking": false,
@@ -10528,6 +10479,55 @@
    "score": 1,
    "breaking": false,
    "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "28b9bed72d9888cb": {
+   "score": 8,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": false
+  },
+  "90298e9a4dbafb6b": {
+   "score": 8,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "2b1722c154ab90bb": {
+   "score": 6,
+   "breaking": false,
+   "category": "EĞİTİM",
+   "review": false,
+   "video": false
+  },
+  "3ddb574b568ab90a": {
+   "score": 6,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "54b257b12cc1206c": {
+   "score": 5,
+   "breaking": false,
+   "category": "TEKNOLOJİ",
+   "review": true,
+   "video": false
+  },
+  "89cdea45e0632eae": {
+   "score": 4,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": false
+  },
+  "4d67c59ed74bca5f": {
+   "score": 4,
+   "breaking": false,
+   "category": "SAĞLIK",
    "review": false,
    "video": false
   }
