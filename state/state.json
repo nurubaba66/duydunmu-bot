@@ -26,13 +26,6 @@
   "769e848e1a19a8b6"
  ],
  "scores": {
-  "461133ca1e2a2d8c": {
-   "score": 4,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
   "a79aebd95e0aab0f": {
    "score": 3,
    "breaking": false,
@@ -10523,6 +10516,13 @@
    "score": 1,
    "breaking": false,
    "category": "MAGAZİN",
+   "review": false,
+   "video": false
+  },
+  "7d2fa6cacef33a73": {
+   "score": 4,
+   "breaking": false,
+   "category": "İLGİNÇ",
    "review": false,
    "video": false
   }
