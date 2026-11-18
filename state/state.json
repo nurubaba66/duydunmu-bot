@@ -31,83 +31,6 @@
   "a49baa85483c22a3"
  ],
  "scores": {
-  "260f9f515cf20a8c": {
-   "score": 4,
-   "breaking": false,
-   "category": "DEPREM",
-   "review": false,
-   "video": false
-  },
-  "56d13334b6530c12": {
-   "score": 3,
-   "breaking": false,
-   "category": "TEKNOLOJİ",
-   "review": true,
-   "video": false
-  },
-  "b430e906f47aaab4": {
-   "score": 6,
-   "breaking": true,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "a4f217a1eab1c1a8": {
-   "score": 4,
-   "breaking": false,
-   "category": "DEPREM",
-   "review": false,
-   "video": false
-  },
-  "080deecef3a017c0": {
-   "score": 8,
-   "breaking": false,
-   "category": "SPOR",
-   "review": false,
-   "video": false
-  },
-  "4f87b7e0d6fc70ad": {
-   "score": 3,
-   "breaking": false,
-   "category": "EĞİTİM",
-   "review": false,
-   "video": false
-  },
-  "229046678077a196": {
-   "score": 2,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "3f7dae9e8512923c": {
-   "score": 5,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "91fa6af573dacd97": {
-   "score": 4,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": false,
-   "video": false
-  },
-  "991aa18f53ffc7c1": {
-   "score": 6,
-   "breaking": false,
-   "category": "DÜNYA",
-   "review": true,
-   "video": false
-  },
-  "837f2cdda4e90b53": {
-   "score": 3,
-   "breaking": false,
-   "category": "GÜNDEM",
-   "review": true,
-   "video": false
-  },
   "d1c994ae7781355e": {
    "score": 5,
    "breaking": false,
@@ -10529,6 +10452,83 @@
    "breaking": false,
    "category": "GÜNDEM",
    "review": true,
+   "video": false
+  },
+  "8071bcd2bd294ee2": {
+   "score": 8,
+   "breaking": false,
+   "category": "EKONOMİ",
+   "review": false,
+   "video": false
+  },
+  "2a90234fd93937db": {
+   "score": 7,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
+  },
+  "ac398fc5a552daed": {
+   "score": 7,
+   "breaking": false,
+   "category": "DEPREM",
+   "review": false,
+   "video": false
+  },
+  "92d195b7a5f6f3f8": {
+   "score": 5,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "b15143104d9f2775": {
+   "score": 5,
+   "breaking": false,
+   "category": "HAVA",
+   "review": false,
+   "video": true
+  },
+  "b34f2e32ea4d593e": {
+   "score": 4,
+   "breaking": false,
+   "category": "ASAYİŞ",
+   "review": false,
+   "video": false
+  },
+  "89bdd35c333e5052": {
+   "score": 3,
+   "breaking": false,
+   "category": "SPOR",
+   "review": false,
+   "video": false
+  },
+  "9a3d439e707ba052": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "83266d5bf5d33745": {
+   "score": 3,
+   "breaking": false,
+   "category": "İLGİNÇ",
+   "review": false,
+   "video": true
+  },
+  "02884b9b1e0d95db": {
+   "score": 3,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
+   "video": false
+  },
+  "fccfbacda799146c": {
+   "score": 2,
+   "breaking": false,
+   "category": "DÜNYA",
+   "review": false,
    "video": false
   }
  },
